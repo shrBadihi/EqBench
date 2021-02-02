@@ -1,0 +1,25 @@
+{
+  "benchmark name": "REVE",
+  "program name": "average",
+  "LOC":11,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Change the type"
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Move the operation from line 12"
+    },
+    {
+      "change line": 12,
+      "change type": "Update", 
+      "change operation": "Move the operation to line 10"
+    }
+  ]
+}

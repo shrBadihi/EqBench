@@ -1,0 +1,19 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "fib.fib",
+  "LOC":16,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "3-10",
+      "change type": "Update", 
+      "change operation": "Wrong Rewrite the method without Recursion"
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":4}
+  ]
+}

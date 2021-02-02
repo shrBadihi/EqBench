@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "Comp.main",
+  "LOC":16,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Negate the condition"
+    },
+    {
+      "change line": 12,
+      "change type": "Update", 
+      "change operation": "Negate the condition"
+    }
+  ]
+}

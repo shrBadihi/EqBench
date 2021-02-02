@@ -1,0 +1,15 @@
+{
+  "benchmark name": "REVE",
+  "program name": "ackermann",
+  "LOC":17,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "8-13",
+      "change type": "Update", 
+      "change operation": "Switch the nested if conditions"
+    }
+  ]
+}

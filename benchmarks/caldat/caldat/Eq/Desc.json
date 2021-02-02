@@ -1,0 +1,20 @@
+{
+  "benchmark name": "caldat",
+  "program name": "caldat",
+  "LOC":23,
+  "# Loops":0,
+  "# non-linear arithmetics":9,
+  "changes": 
+  [
+    {
+      "change line": 21,
+      "change type": "Insertion", 
+      "change operation": "Dummy statement" 
+    },
+    {
+      "change line": 24,
+      "change type": "Insertion", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

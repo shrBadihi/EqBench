@@ -1,0 +1,30 @@
+{
+  "benchmark name": "REVE",
+  "program name": "barthe",
+  "LOC":14,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Initial value" 
+    },
+    {
+      "change line": 13,
+      "change type": "Insert", 
+      "change operation": "Add new condition" 
+    },
+    {
+      "change line": 14,
+      "change type": "Insert", 
+      "change operation": "Add new statement" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":12},
+      {"int c":5}
+  ]
+}

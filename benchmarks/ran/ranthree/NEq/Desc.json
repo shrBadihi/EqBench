@@ -1,0 +1,24 @@
+{
+  "benchmark name": "ran",
+  "program name": "ranthree",
+  "LOC":39,
+  "# Loops":3,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 33,
+      "change type": "Insert", 
+      "change operation": "Else clause" 
+    },
+    {
+      "change line": 34,
+      "change type": "Insert",
+      "change operation": "New return statement" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int idum":10}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "factorial.factorial",
+  "LOC":19,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Update", 
+      "change operation": "Comparison operator"
+    },
+    {
+      "change line": "3-10",
+      "change type": "Update", 
+      "change operation": "Rewrite the method with Recursion" 
+    }
+  ]
+}

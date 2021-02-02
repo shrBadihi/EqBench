@@ -1,0 +1,25 @@
+{
+  "benchmark name": "airy",
+  "program name": "sphbes",
+  "LOC":14,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 72,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 76,
+      "change type": "Delete",
+      "change operation": "Logical condition" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":10},
+      {"double x":-10.0}
+  ]
+}

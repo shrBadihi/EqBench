@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "hashCode",
+  "LOC":6,
+  "# Loops":0,
+  "# non-linear arithmetics":3,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Delete", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"this.x":20},
+      {"this.y":20},
+      {"this.z":20}
+  ]
+}

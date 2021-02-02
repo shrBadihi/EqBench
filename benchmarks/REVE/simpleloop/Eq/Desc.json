@@ -1,0 +1,15 @@
+{
+  "benchmark name": "REVE",
+  "program name": "simpleloop",
+  "LOC":7,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Initial value of the loop counter (it does not effect of summation of i)"
+    }
+  ]
+}

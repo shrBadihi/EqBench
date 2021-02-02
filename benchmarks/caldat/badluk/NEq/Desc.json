@@ -1,0 +1,29 @@
+{
+  "benchmark name": "caldat",
+  "program name": "badluk",
+  "LOC":49,
+  "# Loops":3,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 25,
+      "change type": "Update", 
+      "change operation": "Comparison operand" 
+    },
+    {
+      "change line": 29,
+      "change type": "Update", 
+      "change operation": "Comparison" 
+    },
+    {
+      "change line": 36,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int IYBEG":10}
+  ]
+}

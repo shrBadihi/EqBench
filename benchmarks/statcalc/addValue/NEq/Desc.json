@@ -1,0 +1,24 @@
+{
+  "benchmark name": "Statcalc",
+  "program name": "addValue",
+  "LOC":26,
+  "# Loops":0,
+  "# non-linear arithmetics":5,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Insert", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 16,
+      "change type": "Update", 
+      "change operation": "Print Statment" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double val":-20.0}
+  ]
+}

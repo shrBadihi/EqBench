@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "divide.client",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Insert", 
+      "change operation": "A new condition"
+    },
+    {
+      "change line": 3,
+      "change type": "Insert", 
+      "change operation": "A new return statement" 
+    }
+  ]
+}

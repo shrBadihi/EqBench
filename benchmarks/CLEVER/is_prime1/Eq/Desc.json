@@ -1,0 +1,15 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "is_prime1.client",
+  "LOC":18,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": "12",
+      "change type": "Update", 
+      "change operation": "Change Deadcode" 
+    }
+  ]
+}

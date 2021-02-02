@@ -1,0 +1,20 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "hashCode",
+  "LOC":6,
+  "# Loops":0,
+  "# non-linear arithmetics":3,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Delete", 
+      "change operation": "Unnecessary variable" 
+    },
+    {
+      "change line": 14,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

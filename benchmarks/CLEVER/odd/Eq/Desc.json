@@ -1,0 +1,15 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "odd.client",
+  "LOC":15,
+  "# Loops":1,
+  "# non-linear arithmetics":2,
+  "changes": 
+  [
+    {
+      "change line": "4-9",
+      "change type": "Update", 
+      "change operation": "Simplify the method"
+    }
+  ]
+}
