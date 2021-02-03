@@ -5,8 +5,7 @@ to facilitate applicability for different equivalence checking techniques.
 
 ## Data Representation
 The structure of the dataset is shown below:
-
-![](/img/structure.png =250x)
+<img src="/img/structure.png" width="200">
 
 The archive is organized by **18** major directories corresponding to 18 benchmarks.
 Inside each benchmark directory, we have one folder for each program.
