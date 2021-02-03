@@ -1,4 +1,4 @@
-package benchmarks.Ell.sncndn.NEq;
+package benchmarks.ell.sncndn.Neq;
 public class oldV{
     public static double sn, cn, dn;
     public static void snippet(double uu, double emmc) {

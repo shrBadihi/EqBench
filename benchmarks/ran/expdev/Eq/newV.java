@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.expdev.Eq;
+package benchmarks.ran.expdev.Eq;
 public class newV {
     public static double snippet(int idumx, int idum) {
         idum = idumx;

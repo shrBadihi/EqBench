@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.gasdev.NEq;
+package benchmarks.ran.gasdev.Neq;
 public class newV{
     public static double snippet ( int idumx,int idum) {//idum is a global var
         idum = idumx;
@@ -16,7 +16,7 @@ public class newV{
                 v2=2.0*ran1(idum)-1.0;
                 rsq=v1*v1+v2*v2;
             } while (rsq >= 1.0 || rsq == 0.0);
-            fac=Math.sqrt(-2.0*Math.log(rsq)/rsq);
+            fac=Math.sqrt(-2.0*Math.log(rsq)*rsq);//change
             gset=v1*fac;
             iset=1;
             return v2*fac;

@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rd.Eq;
+package benchmarks.ell.rd.Eq;
 public class newV{
   public static double snippet (double x, double y, double z) {
     double ERRTOL=0.0015;

@@ -1,4 +1,4 @@
-package benchmarks.Ran.ranthree.NEq;
+package benchmarks.ran.ranthree.Neq;
 public class oldV{
 	public static double snippet(int idum){//&idum
 		int inext = 0,inextp = 0;

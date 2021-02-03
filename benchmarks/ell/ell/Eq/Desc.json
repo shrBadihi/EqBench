@@ -1,0 +1,25 @@
+{
+  "benchmark name": "ell",
+  "program name": "ell",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 11,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "expint",
+  "LOC":66,
+  "# Loops":2,
+  "# non-linear arithmetics":27,
+  "changes": 
+  [
+    {
+      "change line": 25,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 55,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":0.0},
+      {"double x":10.0}
+  ]
+}

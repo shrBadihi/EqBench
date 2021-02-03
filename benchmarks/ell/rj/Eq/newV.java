@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rj.Eq;
+package benchmarks.ell.rj.Eq;
 public class newV{
   public static double snippet (double x, double y, double z, double p) {
     double ERRTOL=0.0015;
@@ -83,8 +83,7 @@ public class newV{
     ec=delp*delp;
     ed=ea-3.0*ec;
     ee=eb+2.0*delp*(ea-ec);
-    double temp = (1.0+ed*(-C1+C5*ed-C6*ee)+eb*(C7+delp*(-C8+delp*C4))  +delp*ea*(C2-delp*C3)-C2*delp*ec);//change
-    ans=3.0*sum+fac*temp/(ave*Math.sqrt(ave));//change
+    ans=3.0*sum+fac*(1.0+ed*(-C1+C5*ed-C6*ee)+eb*(C7+delp*(-C8+delp*C4))  +delp*ea*(C2-delp*C3)-C2*delp*ec)/(ave*Math.sqrt(ave));
     if (p <= 0.0){
       ans=a*(b*ans+3.0*(rcx-rf(xt,yt,zt)));
     }

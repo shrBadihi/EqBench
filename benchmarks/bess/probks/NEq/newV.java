@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.probks.NEq;
+package benchmarks.bess.probks.Neq;
 public class newV{
     public static double snippet (double alam) {
         double EPS1=1.0e-6;

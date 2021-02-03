@@ -1,4 +1,4 @@
-package benchmarks.optimization.wood.NEq;
+package benchmarks.optimization.wood.Neq;
 public class oldV{
     public final static void wood(double x1, double x2, double x3, double x4) {
         if ((10.0 * (x2 - x1 * x1)) == 0.0 && (5.0 - x1) == 0.0

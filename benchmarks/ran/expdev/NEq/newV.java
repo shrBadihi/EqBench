@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.expdev.NEq;
+package benchmarks.ran.expdev.Neq;
 public class newV{
     public static double snippet(int idumx, int idum) {
         idum = idumx;

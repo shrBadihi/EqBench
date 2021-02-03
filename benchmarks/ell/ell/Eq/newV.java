@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.ell.Eq;
+package benchmarks.ell.ell.Eq;
 public class newV{
   public static double snippet (double phi, double ak) {
     double cc =0;

@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.brent.Eq;
+package benchmarks.ell.brent.Eq;
 public class oldV{
   public static double snippet (double ax, double bx, double cx,double tol,double bxmin) {
     int ITMAX = 5;
@@ -98,8 +98,5 @@ public class oldV{
 
   public static double MIN(double a, double b){
     return b < a ? (b) : (a);
-  }
-  public static long helperdoubleToRawBits(double xm) {
-    return Double.doubleToRawLongBits(xm);
   }
 }

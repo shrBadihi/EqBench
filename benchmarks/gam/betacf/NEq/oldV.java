@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.betacf.NEq;
+package benchmarks.gam.betacf.Neq;
 public class oldV{
   public static double snippet (double a,double b,double x) {
     int MAXIT=100;

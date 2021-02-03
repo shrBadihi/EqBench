@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.SIGN.NEq;
+package benchmarks.bess.SIGN.Neq;
 public class newV{
     public static double snippet(double a, double b) {
         if (b >= 0){

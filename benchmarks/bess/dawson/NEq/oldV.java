@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.dawson.NEq;
+package benchmarks.bess.dawson.Neq;
 public class oldV{
     public static double snippet(double x) {
         double NMAX=100;

@@ -1,4 +1,4 @@
-package benchmarks.caldat.julday.NEq;
+package benchmarks.caldat.julday.Neq;
 public class newV {
     public static double snippet(double mmj,  double idj,  double iyyyj) {
         double IGREG=15.0+31.0*(10.0+12.0*1582.0);

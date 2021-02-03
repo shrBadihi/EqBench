@@ -1,4 +1,4 @@
-package demo.benchmarks.Frenel.cisi.Eq;
+package benchmarks.frenel.cisi.Eq;
 public class oldV {
 	private static complex cs;
 	public static void snippet(double x){
@@ -75,7 +75,7 @@ public class oldV {
 		complex b,cc = null,d,h,del;
 
 		ax=Math.abs(x);
-		if (ax < Math.abs(FPMIN) && x < 0) {//change
+		if (ax < Math.sqrt(FPMIN)) {
 			cs.assign(ax);
 		} else if (ax <= XMIN) {
 			sum=sums=0.0;
@@ -97,7 +97,7 @@ public class oldV {
 					sumc=sum;
 					sum=sums;
 				}
-				//if (term < test) break;//change
+				if (term < test) break;
 				odd=!odd;
 				n += 2;
 			}
@@ -126,9 +126,9 @@ public class oldV {
 			h = h.multiply(new complex(ax,-ax));
 			cs=new complex(0.5,0.5).multiply((new complex(1.0,0.0).minus(new complex(Math.cos(0.5*pix2),Math.sin(0.5*pix2)).multiply(h))));
 		}
-		//if (x < 0.0) {change
+		if (x < 0.0) {change
 			cs = new complex(-cs.getreal(),-cs.getimag());;
-		//}
+		}
 		return;
   }
 }

@@ -1,4 +1,4 @@
-package benchmarks.caldat.caldat.NEq;
+package benchmarks.caldat.caldat.Neq;
 public class newV {//test three,no connections
 	public static int mm,id,iyyy;
 	public static void caldat( int julian){

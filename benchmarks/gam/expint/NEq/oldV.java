@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.expint.NEq;
+package benchmarks.gam.expint.Neq;
 public class oldV{
   public static double snippet (int n, double x) {
     int MAXIT=100;

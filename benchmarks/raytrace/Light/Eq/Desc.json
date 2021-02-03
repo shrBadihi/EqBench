@@ -1,0 +1,15 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "light",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 51,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

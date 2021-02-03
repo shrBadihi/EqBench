@@ -1,0 +1,32 @@
+{
+  "benchmark name": "ran",
+  "program name": "bnldev",
+  "LOC":71,
+  "# Loops":4,
+  "# non-linear arithmetics":16,
+  "changes": 
+  [
+    {
+      "change line": 28,
+      "change type": "Update", 
+      "change operation": "Comparison operand" 
+    },
+    {
+      "change line": 67,
+      "change type": "Insert", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 68,
+      "change type": "Delete", 
+      "change operation": "Logical clause" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double pp":0.006},
+      {"int n":30},
+      {"int idumx":-100.0},
+      {"int idum":-100.0}
+  ]
+}

@@ -7,6 +7,11 @@
   "changes": 
   [
     {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Logical operator" 
+    },
+    {
       "change line": 33,
       "change type": "Insert", 
       "change operation": "Else clause" 

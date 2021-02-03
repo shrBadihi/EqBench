@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.erfcc.NEq;
+package benchmarks.gam.erfcc.Neq;
 public class oldV{
   public static double snippet (double x) {
     double t =0;

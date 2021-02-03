@@ -1,6 +1,6 @@
-package demo.benchmarks.Bess.SIGN.Eq;
+package benchmarks.bess.SIGN.Eq;
 public class newV{
-    public static double snippet (double a, double b) {
+    public static double snippet(double a, double b) {
         if (a >= 0){//change
             if (b >= 0)//change
                 return a;

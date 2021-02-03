@@ -1,4 +1,4 @@
-package demo.benchmarks.dart.test.NEq;
+package benchmarks.dart.test.Neq;
 public class newV {
     public static double snippet(int x, int y) {
         if (x*x*x < 0){//change

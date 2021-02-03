@@ -7,19 +7,19 @@
   "changes": 
   [
     {
-      "change line": 25,
+      "change line": 20,
       "change type": "Update", 
-      "change operation": "Comparison operand" 
+      "change operation": "Comparison operator" 
     },
     {
       "change line": 29,
       "change type": "Update", 
-      "change operation": "Comparison" 
+      "change operation": "Comparison"  
     },
     {
-      "change line": 36,
+      "change line": 35,
       "change type": "Update", 
-      "change operation": "Arithmetic" 
+      "change operation": "Comparison operator" 
     }
   ],
   "counter-example":

@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.dawson.NEq;
+package benchmarks.bess.dawson.Neq;
 public class newV{
     public static double snippet(double x) {
         double NMAX=100;
@@ -39,11 +39,11 @@ public class newV{
             d1=n0+1;
             d2=d1-2.0;
             sum=0.0;
-            for (i=0;i<NMAX;i++,d1+=2.0,d2-=2.0,e1*=e2)
+            for (i=0;i<NMAX;i++,d1+=2.0,d2-=2.0,e1+=e2)//change
                 sum += c*(e1*d1+1.0*(d2*e1));
             ans=0.5641895835+SIGN(Math.exp(-xp*xp),x)*sum;
         }
-        return ans+A2;//change
+        return ans;
     }
     public static double SIGN(double a, double b){
         return b >= 0 ? (a >= 0 ? a : -a) : (a >= 0 ? -a : a);

@@ -1,4 +1,4 @@
-package demo.benchmarks.sine.mysin.NEq;
+package benchmarks.sine.mysin.Neq;
 public class newV{
   public static double snippet (double x ) {
     double retval = 0;
@@ -125,7 +125,7 @@ public class newV{
       }
     }else {
       retval = 0.0;
-      if (sign == 1 && sign == 0 )//change
+      if (sign == 1)
         retval = -retval;
       return retval;
     }
@@ -139,7 +139,7 @@ public class newV{
       x *= pi2_hi;
     }
 
-    if (sign==1) 
+    if (sign == 1 || sign == 0 )//change
     x = -x;
 
     return x; 

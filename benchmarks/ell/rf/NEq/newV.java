@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rf.NEq;
+package benchmarks.ell.rf.Neq;
 public class newV{
   public static double snippet (double x, double y, double z) {
     double ERRTOL=0.0025;
@@ -31,18 +31,18 @@ public class newV{
       sqrtx=Math.sqrt(xt);
       sqrty=Math.sqrt(yt);
       sqrtz=Math.sqrt(zt);
-      alamb=sqrtx*(sqrty+sqrtz)+sqrty*sqrtz;
+      alamb=sqrtx+(sqrty+sqrtz)+sqrty*sqrtz;//change
       xt=0.25*(xt+alamb);
       yt=0.25*(yt+alamb);
       zt=0.25*(zt+alamb);
       ave=THIRD*(xt+yt+zt);
-      delx=(ave-xt)/ave;
+      //delx=(ave-xt)/ave;
       dely=(ave-yt)/ave;
       delz=(ave-zt)/ave;
     } while (MAX(MAX(Math.abs(delx),Math.abs(dely)),Math.abs(delz)) > ERRTOL);
     e2=delx*dely-delz*delz;
     e3=delx*dely*delz;
-    return C2+((1.0+(C1*e2-C2-C3*e3)*e2+C4*e3));//change
+    return (1.0+(C1*e2-C2-C3*e3)*e2+C4*e3);
   }
   public static double SQR(double a) {
     return a*a;

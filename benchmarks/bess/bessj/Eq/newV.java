@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessj.Eq;
+package benchmarks.bess.bessj.Eq;
 public class newV {
     public static double snippet(double n, double x) {
         int IEXP=2 * 1024;
@@ -41,7 +41,7 @@ public class newV {
                 bjm=j*tox*bj-bjp;
                 bjp=bj;
                 bj=bjm;
-                k = Math.getExponent(bj);//change: delete the next line
+                k = Math.getExponent(bj);
                 if (k > 2048) {//change
                     bj*=Math.pow(2, -IEXP);
                     bjp*=Math.pow(2, -IEXP);

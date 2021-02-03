@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.brent.Eq;
+package benchmarks.ell.brent.Eq;
 public class newV{
   public static double snippet (double ax, double bx, double cx,double tol,double bxmin) {
     int ITMAX = 5;
@@ -33,7 +33,8 @@ public class newV{
     for (iter=0;iter<ITMAX;iter++) {
       xm=0.5*(a+b);
       tol2=2.0*(tol1=tol*Math.abs(x)+ZEPS);
-      if (Math.abs(x-xm) <= (tol2-0.5*(b-a))) {//change
+      if (Math.abs(x-xm) <= (tol2-0.5*(b-a))) {
+        //bxmin=x;
         return fx;
       }
       if (Math.abs(e) > tol1) {
@@ -79,7 +80,8 @@ public class newV{
           fv=fu;
         }
       }
-    }//change
+    }
+    //bxmin=x;
     return fx;
   }
   public static double SQR(double a) {
@@ -96,8 +98,5 @@ public class newV{
 
   public static double MIN(double a, double b){
     return b < a ? (b) : (a);
-  }
-  public static long helperdoubleToRawBits(double xm) {
-    return Double.doubleToRawLongBits(xm);
   }
 }

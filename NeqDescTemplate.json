@@ -1,0 +1,20 @@
+{
+  "benchmark name": "test",
+  "program name": "test",
+  "LOC":"X",
+  "# Loops":"X",
+  "# non-linear arithmetics":"X",
+  "changes": 
+  [
+    {
+      "change line": "X",
+      "change type": "Insert/Update/Delete", 
+      "change operation": "Comparison operand/Comparison operator/Arithmetic/Logical clause/etc." 
+    }
+  ],
+  "counter-example":
+  [
+      {"double x1":"Y"},
+      {"double x2":"YY"}
+  ]
+}

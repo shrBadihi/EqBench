@@ -1,0 +1,33 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "surface",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 34,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 36,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"float rval":10.0},
+      {"float gval":5.0},
+      {"float bval":10.0},
+      {"float a":10.0},
+      {"float d":10.0},
+      {"float s":10.0},
+      {"float n":10.0},
+      {"float r":10.0},
+      {"float t":10.0},
+      {"float index":10.0}
+  ]
+}

@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessj0.Eq;
+package benchmarks.bess.bessj0.Eq;
 public class oldV{
     public static double snippet(double x) {
         double ax = 0;

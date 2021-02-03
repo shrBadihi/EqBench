@@ -1,0 +1,15 @@
+{
+  "benchmark name": "bess",
+  "program name": "SQR",
+  "LOC":3,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "5-7",
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    }
+  ]
+}

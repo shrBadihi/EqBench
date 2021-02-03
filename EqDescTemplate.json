@@ -1,0 +1,15 @@
+{
+  "benchmark name": "test",
+  "program name": "test",
+  "LOC":"X",
+  "# Loops":"X",
+  "# non-linear arithmetics":"X",
+  "changes": 
+  [
+    {
+      "change line": "X",
+      "change type": "Insert/Update/Delete", 
+      "change operation": "Dummy statement/Extract variable/Simplify the if condition/Unnecessary variable/Negate the condition/Rewrite the method with Recursion/etc." 
+    }
+  ]
+}

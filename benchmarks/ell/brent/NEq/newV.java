@@ -1,4 +1,4 @@
- package demo.benchmarks.Ell.brent.NEq;
+ package benchmarks.ell.brent.Neq;
 public class newV{
   public static double snippet (double ax, double bx, double cx,double tol,double bxmin) {
     int ITMAX = 5;
@@ -24,21 +24,21 @@ public class newV{
     double x=0.0;
     double xm=0.0;
     double e=0.0;
-    a=(ax > cx && ax ==0 ? ax : cx);//change
+    a=(ax < cx ? ax : cx);
     b=(ax > cx ? ax : cx);
     x=bx;
     w=bx;
     v=bx;
-    fw=fv=fx=Math.sin(x);
+    fw=fv=fx=Math.cos(x);//change
     for (iter=0;iter<ITMAX;iter++) {
       xm=0.5*(a+b);
       tol2=2.0*(tol1=tol*Math.abs(x)+ZEPS);
-      if (Math.abs(x-xm) <= (tol2-0.5*(b-a))) {
+      if (Math.abs(x-xm) > (tol2-0.5*(b-a))) {//change
         bxmin=x;
         return fx;
       }
       if (Math.abs(e) > tol1) {
-        r=(fx-fv);//change
+        r=(x-w)*(fx-fv);
         q=(x-v)*(fx-fw);
         p=(x-v)*q-(x-w)*r;
         q=2.0*(q-r);

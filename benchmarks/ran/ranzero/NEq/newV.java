@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.ranzero.NEq;
+package benchmarks.ran.ranzero.Neq;
 public class newV{
     public static double snippet (int idum) {//idum is a global variable
         int IA=16807;
@@ -12,10 +12,11 @@ public class newV{
         idum *= MASK;
         k=idum/IQ;
         idum=IA*(idum-k*IQ)-IR*k;
-        if (idum < 0)
+        if (idum < 0){
             idum += IM;
+            idum *=IA;//change
+        }
         ans=AM*idum;
-        ans+=IA;//change
         idum *= MASK;
         return ans;
     }

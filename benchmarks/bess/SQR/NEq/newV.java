@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.SQR.NEq;
+package benchmarks.bess.SQR.Neq;
 public class newV{
     public static double snippet(double a) 
     {

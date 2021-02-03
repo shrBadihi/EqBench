@@ -1,4 +1,4 @@
-package benchmarks.Gam.factrl.NEq;
+package benchmarks.gam.factrl.Neq;
 public class newV{
     public static double sn, cn, dn;
 	public static double factrl(int n){

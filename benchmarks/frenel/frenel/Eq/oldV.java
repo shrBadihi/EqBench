@@ -1,4 +1,4 @@
-package demo.benchmarks.Frenel.frenel.Eq;
+package benchmarks.frenel.frenel.Eq;
 public class oldV {
 	private static complex cs;
 	public static void snippet(double x){

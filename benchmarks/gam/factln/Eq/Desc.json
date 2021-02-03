@@ -7,14 +7,9 @@
   "changes": 
   [
     {
-      "change line": 6,
-      "change type": "Insertion", 
-      "change operation": "Extract variable" 
-    },
-    {
-      "change line": 9,
+      "change line": "7-10",
       "change type": "Update", 
-      "change operation": "Replace value by variable" 
+      "change operation": "Move the condition to nested condition" 
     }
   ]
 }

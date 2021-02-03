@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.betacf.Eq;
+package benchmarks.gam.betacf.Eq;
 public class newV{
   public static double snippet (double a,double b,double x) {
     int MAXIT=100;

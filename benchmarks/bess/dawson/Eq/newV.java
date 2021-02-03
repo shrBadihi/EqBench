@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.dawson.Eq;
+package benchmarks.bess.dawson.Eq;
 public class newV{
     public static double snippet(double x) {
         double NMAX=100;

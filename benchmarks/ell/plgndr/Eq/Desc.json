@@ -1,0 +1,25 @@
+{
+  "benchmark name": "ell",
+  "program name": "plgndr",
+  "LOC":31,
+  "# Loops":2,
+  "# non-linear arithmetics":13,
+  "changes": 
+  [
+    {
+      "change line": 11,
+      "change type": "Insert", 
+      "change operation": "Extract variable"
+    },
+    {
+      "change line": 16,
+      "change type": "Update", 
+      "change operation": "with Dummy value"
+    },
+    {
+      "change line": 24,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

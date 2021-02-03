@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.ranone.NEq;
+package benchmarks.ran.ranone.Neq;
 public class newV{
     public static double snippet (int idum) {//idum is a global variable
         int IA=16807;
@@ -32,7 +32,7 @@ public class newV{
         }
         k=idum/IQ;
         idum=IA*(idum-k*IQ)-IR*k;
-        if (idum < 0 && idum > 100) // change
+        if (idum < 0 || idum > 100) // change
             idum += IM;
         iy=iy/idum;
         if ((temp=AM*iy) > NDIV)

@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.bnldev.NEq;
+package benchmarks.ran.bnldev.Neq;
 public class newV{
     public static double snippet (double pp,  int n, int idumx, int idum) {//idum is global Var
         idum = idumx;

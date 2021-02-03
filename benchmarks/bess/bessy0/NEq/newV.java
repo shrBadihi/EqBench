@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessy0.NEq;
+package benchmarks.bess.bessy0.Neq;
 public class newV{
     public static double snippet (double x) {
         double z = 0;

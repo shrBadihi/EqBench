@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.ellpi.NEq;
+package benchmarks.ell.ellpi.Neq;
 public class newV{
   public static double snippet (double phi, double en, double ak){
     double cc =0;

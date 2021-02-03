@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.ei.Eq;
+package benchmarks.gam.ei.Eq;
 public class newV{
     public static double snippet (double x) {
         int MAXIT=2;
@@ -15,7 +15,8 @@ public class newV{
         if (x < FPMIN)
             return Math.log(x)+EULER;
         if (x <= -Math.log(EPS)) {
-            sum=0.0;//change:remove the next line
+            sum=0.0;
+			//fact=1.0;//change
             for (k=1;k<=MAXIT;k++) {
                 fact *= x/k;
                 term=fact/k;

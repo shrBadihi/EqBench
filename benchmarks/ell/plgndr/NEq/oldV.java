@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.plgndr.NEq;
+package benchmarks.ell.plgndr.Neq;
 public class oldV{
   public static double snippet (int l, int m, double x) {
     int i=0;

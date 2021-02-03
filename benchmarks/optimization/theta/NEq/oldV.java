@@ -1,4 +1,4 @@
-package benchmarks.optimization.theta.NEq;
+package benchmarks.optimization.theta.Neq;
 public class oldV{
     public final static double theta(double x1, double x2) {
         if(x1 > 0.0) {

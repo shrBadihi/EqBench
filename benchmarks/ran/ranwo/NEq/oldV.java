@@ -1,4 +1,4 @@
-package benchmarks.Ran.rantwo.NEq;
+package benchmarks.ran.rantwo.Neq;
 public class oldV{
     public static double snippet(int idum){//&idum
 		final int IM1=2147483563,IM2=2147483399;

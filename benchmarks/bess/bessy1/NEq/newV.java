@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessy1.NEq;
+package benchmarks.bess.bessy1.Neq;
 public class newV{
     public static double snippet (double x) {
         double z = 0;
@@ -19,11 +19,11 @@ public class newV{
             z=8.0/x;
             y=z*z;
             xx=x-2.356194491;
-            ans1=1.0+y*(0.183105e-2+y*(-0.3516396496e-4 +y*(0.2457520174e-5+y*(-0.240337019e-6))));
+            ans1=y*(0.2457520174e-5+y*(-0.240337019e-6));//change
             ans2=0.04687499995+y*(-0.2002690873e-3 +y*(0.8449199096e-5+y*(-0.88228987e-6 +y*0.105787412e-6)));
             ans=Math.sqrt(0.636619772/x)*(Math.sin(xx)*ans1+z*Math.cos(xx)*ans2);
         }
-        return ans + xx;//change
+        return ans;
     }
     private static double bessj1(double x){
         double  ax,z,xx,y,ans,ans1,ans2;

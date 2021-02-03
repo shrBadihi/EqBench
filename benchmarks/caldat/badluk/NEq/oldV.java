@@ -1,4 +1,4 @@
-package benchmarks.caldat.badluk.NEq;
+package benchmarks.caldat.badluk.Neq;
 public class oldV{
     public static int snippet (int IYBEG) {
         int IYEND=IYBEG+1;

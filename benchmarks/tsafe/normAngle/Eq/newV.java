@@ -1,4 +1,4 @@
-package demo.benchmarks.tsafe.normAngle.Eq;
+package benchmarks.tsafe.normAngle.Eq;
 public class newV{
     public static double snippet (double angle) {
         double twoPi = Math.PI * 2;

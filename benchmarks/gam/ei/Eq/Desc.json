@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "ei",
+  "LOC":41,
+  "# Loops":2,
+  "# non-linear arithmetics":13,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Initial value" 
+    },
+    {
+      "change line": 19,
+      "change type": "Delete", 
+      "change operation": "Considering the change to line 9"
+    }
+  ]
+}

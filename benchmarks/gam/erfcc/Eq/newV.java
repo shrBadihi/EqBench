@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.erfcc.Eq;
+package benchmarks.gam.erfcc.Eq;
 public class newV{
   public static double snippet (double x) {
     double t =0;

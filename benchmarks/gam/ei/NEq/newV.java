@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.ei.NEq;
+package benchmarks.gam.ei.Neq;
 public class newV{
 	public static double snippet (double x) {
 		int MAXIT=2;
@@ -20,11 +20,11 @@ public class newV{
 			for (k=1;k<=MAXIT;k++) {
 				fact *= x/k;
 				term=fact/k;
-				sum += term;
+				sum *= term;//change
 				if (term < EPS*sum)
 					break;
 			}
-			return sum+Math.log(x);//change
+			return sum+Math.log(x)+EULER;
 		} else {
 			sum=0.0;
 			term=1.0;

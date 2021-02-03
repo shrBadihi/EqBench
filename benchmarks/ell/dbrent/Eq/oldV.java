@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.dbrent.Eq;
+package benchmarks.ell.dbrent.Eq;
 public class oldV{
   public static double snippet (double ax, double bx, double cx, double tol,double dxmin) {//degToRad and g are global vars
     int ITMAX=100;

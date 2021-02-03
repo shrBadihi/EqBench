@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.zbrent.Eq;
+package benchmarks.ell.zbrent.Eq;
 public class newV{
   public static double snippet (double x1, double x2, double tol) {
     int ITMAX=2;

@@ -1,0 +1,15 @@
+{
+  "benchmark name": "bess",
+  "program name": "SIGN",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4-5,11",
+      "change type": "Update", 
+      "change operation": "Switch nested Ifs" 
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "normalize",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":8,
+  "changes": 
+  [
+    {
+      "change line": 72,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 75,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"this.x":2.0},
+      {"this.y":2.0},
+      {"this.z":2.0}
+  ]
+}

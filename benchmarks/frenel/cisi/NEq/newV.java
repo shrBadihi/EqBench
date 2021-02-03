@@ -1,4 +1,4 @@
-package demo.benchmarks.Frenel.cisi.NEq;
+package benchmarks.frenel.cisi.Neq;
 public class newV {
 	private static complex cs;
 	public static void snippet(double x){
@@ -61,7 +61,7 @@ public class newV {
 			}
 			cs=new complex(sumc+Math.log(t)+EULER,sums);
 		}
-		if (x < 0.0 && x==0.0) cs = new complex(cs.getreal(),-cs.getimag());//change
+		if (x < 0.0 || x==0.0) cs = new complex(cs.getreal(),-cs.getimag());//change
 	}
 	public static void frenel(double x){
 		final int MAXIT=100;

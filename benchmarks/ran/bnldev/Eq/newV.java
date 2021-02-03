@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.bnldev.Eq;
+package benchmarks.ran.bnldev.Eq;
 public class newV{
     public static double snippet (double pp,  int n, int idumx, int idum) {//idum is global Var
         idum = idumx;
@@ -47,7 +47,8 @@ public class newV{
         else {
             if (n != nold) {
                 en=n;
-                oldg=en+1.0; //change: remove  the next line the nold
+                oldg=en+1.0;
+                //nold=n; //change
             }
             if (p != pold) {
                 pc=1.0-p;

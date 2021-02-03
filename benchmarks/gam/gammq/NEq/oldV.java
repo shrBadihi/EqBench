@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.gammq.NEq;
+package benchmarks.gam.gammq.Neq;
 public class oldV{
   public static double snippet (double a, double x, double gamser, double gammcf, double gln) {
     if (x < 0.0 || a <= 0.0)

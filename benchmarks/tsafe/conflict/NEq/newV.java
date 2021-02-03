@@ -1,4 +1,4 @@
-package demo.benchmarks.tsafe.conflict.NEq;
+package benchmarks.tsafe.conflict.Neq;
 public class newV{
   public static double snippet (double psi1, double vA, double vC, double xC0, double yC0, double psiC, double bank_ang, double degToRad, double g ) { //degToRad and g are global vars
     double dmin = 999;
@@ -21,7 +21,7 @@ public class newV{
     double yd1 = yC - yA;                  
     double d = Math.sqrt(Math.pow(xd1, 2.0) + Math.pow(yd1, 2.0));
     double minsep =0;
-    if (d < dmin && yA<xA) {//change
+    if (d < dmin && rA>rC) {//change
       dmin = d;
     } 
     if (dmin < dmst) {

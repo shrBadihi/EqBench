@@ -1,7 +1,7 @@
-package demo.benchmarks.gam.betacf.NEq;
+package benchmarks.gam.betacf.Neq;
 public class newV{
   public static double snippet (double a,double b,double x) {
-    int MAXIT=100;
+    int MAXIT=2;
     double EPS=1e-14;
     double FPMIN=-7837383829242323.0/EPS;
     int m=0;
@@ -18,7 +18,7 @@ public class newV{
     qap=a+1.0;
     qam=a-1.0;
     c=1.0;
-    d=1.0;//change
+    d=1.0-qab*x/qap;
     if (Math.abs(d) > FPMIN)//change
       d=1.0;//change
     d=1.0/d;

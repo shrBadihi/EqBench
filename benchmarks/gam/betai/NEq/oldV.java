@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.betai.NEq;
+package benchmarks.gam.betai.Neq;
 public class oldV {
   public static double snippet(double a, double b, double x) {
     double bt =0;

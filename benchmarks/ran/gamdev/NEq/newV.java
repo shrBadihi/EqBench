@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.gamdev.NEq;
+package benchmarks.ran.gamdev.Neq;
 public class newV{
     public static double snippet (double ia, double idumx, double idum) {
         idum = idumx;

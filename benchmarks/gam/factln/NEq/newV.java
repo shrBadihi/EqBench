@@ -1,11 +1,11 @@
-package benchmarks.Gam.factln.NEq;
+package benchmarks.gam.factln.Neq;
 public class newV{
     public static double sn, cn, dn;
     public static double factln( int n)
 	{
 		double[] a = new double[101];
 		//if (n < 0) System.out.println("Negative factorial in routine factln");
-		if (n <= 1 || n < 0) return 0.0;//change
+		if (n <= 1) return 0.0;
 		if (n <= 100)
 			return (a[n] != 0.0 ? a[n] : (a[n]=gammln(n+1.0)));
 		else return gammln(n+1.0);

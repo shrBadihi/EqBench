@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.ei.NEq;
+package benchmarks.gam.ei.Neq;
 public class oldV{
 	public static double snippet (double x) {
 		int MAXIT=2;

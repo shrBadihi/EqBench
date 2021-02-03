@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessj1.NEq;
+package benchmarks.bess.bessj1.Neq;
 public class newV{
     public static double snippet(double x) {
         double ax = 0;
@@ -22,7 +22,7 @@ public class newV{
             ans1=1.0+y*(0.183105e-2+y*(-0.3516396496e-4 +y*(0.2457520174e-5+y*(-0.240337019e-6))));
             ans2=0.04687499995+y*(-0.2002690873e-3 +y*(0.8449199096e-5+y*(-0.88228987e-6 +y*0.105787412e-6)));
             ans=Math.sqrt(0.636619772/ax)*(Math.cos(xx)*ans1-z*Math.sin(xx)*ans2);
-            if (x < 0.0 && x>10)//change
+            if (x < 0.0 || x>10)//change
                 ans = -ans;
         }
         return ans;

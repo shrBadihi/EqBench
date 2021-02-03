@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.brent.NEq;
+package benchmarks.ell.brent.Neq;
 public class oldV{
   public static double snippet (double ax, double bx, double cx,double tol,double bxmin) {
     int ITMAX = 5;

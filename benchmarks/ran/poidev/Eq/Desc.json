@@ -1,0 +1,25 @@
+{
+  "benchmark name": "ran",
+  "program name": "poidev",
+  "LOC":39,
+  "# Loops":3,
+  "# non-linear arithmetics":13,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 15,
+      "change type": "Delete", 
+      "change operation": "Unused variable" 
+    },
+    {
+      "change line": 39,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

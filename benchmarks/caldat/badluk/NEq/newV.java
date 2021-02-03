@@ -1,4 +1,4 @@
-package benchmarks.caldat.badluk.NEq;
+package benchmarks.caldat.badluk.Neq;
 public class newV{
     public static int snippet (int IYBEG) {
         int IYEND=IYBEG+1;
@@ -17,12 +17,12 @@ public class newV{
             for (im=1;im<=2;im++) {
                 jday=julday(im,13,iyyy);
                 idwk=((jday+1) % 7);
-                if (idwk == 5) {
+                if (idwk != 5) {//change
                     n=(int) (12.37*(iyyy-1900+(im-0.5)/12.0));
                     icon=0;
                     for (int u = 0;u<2;u++) {
                         frac=24.0*(frac+timzon);
-                        if (frac < -24.0) {//change
+                        if (frac < 0.0) {
                             --jd;
                             frac += 24.0;
                         }
@@ -32,8 +32,8 @@ public class newV{
                         }
                         else
                             frac += 12.0;
-                        if (jd == jday) {
-                            return  im-1;//change
+                        if (jd != jday) {//change
+                            return  im;
                         }
                         else {
                             if(jday>=jd)

@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.gser.Eq;
+package benchmarks.gam.gser.Eq;
 public class newV{
   public static double snippet (double a, double x,double gamser) {
     double EPS = 1e-14;
@@ -24,32 +24,6 @@ public class newV{
       }
     }
       return gamser;
-  }
-  public static double gcf(double a, double x, double gln){
-    final int ITMAX=2;
-    final double EPS=1e-14;
-    final double FPMIN=Double.MIN_VALUE/EPS;
-    int i;
-    double an,b,c,d,del,h;
-
-    b=x+1.0-a;
-    c=1.0/FPMIN;
-    d=1.0/b;
-    h=d;
-    for (i=1;i<=ITMAX;i++) {
-      an = -i*(i-a);
-      b += 2.0;
-      d=an*d+b;
-      if (Math.abs(d) < FPMIN) d=FPMIN;
-      c=b+an/c;
-      if (Math.abs(c) < FPMIN) c=FPMIN;
-      d=1.0/d;
-      del=d*c;
-      h *= del;
-      if (Math.abs(del-1.0) <= EPS) break;
-    }
-    if (i > ITMAX) System.out.println("a too large, ITMAX too small in gcf");
-    return Math.exp(-x+a*Math.log(x)-gln)*h;
   }
   public static double gammln(double xx)
   {

@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.probks.Eq;
+package benchmarks.bess.probks.Eq;
 public class oldV {
     public static double snippet (double alam) {
         double EPS1=1.0e-6;

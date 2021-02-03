@@ -1,4 +1,4 @@
-package demo.benchmarks.sine.mysin.Eq;
+package benchmarks.sine.mysin.Eq;
 public class oldV{
   public static double snippet (double x ) {
     double retval = 0;

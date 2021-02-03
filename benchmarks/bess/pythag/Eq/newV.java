@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.pythag.Eq;
+package benchmarks.bess.pythag.Eq;
 public class newV{
     public static double snippet (double a, double b) {
         double absa = 0;
@@ -13,7 +13,6 @@ public class newV{
                 return absb * Math.sqrt(1.0 + SQR(absa / absb));//change
             else
                 return absb;//change
-
         }
     }
     public static double SQR(double a) {

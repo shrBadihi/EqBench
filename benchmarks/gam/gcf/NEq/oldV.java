@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.gcf.NEq;
+package benchmarks.gam.gcf.Neq;
 public class oldV{
   public static double snippet (double a, double x, double gln) {
     int ITMAX=2;
@@ -25,7 +25,7 @@ public class oldV{
       if (Math.abs(c) < FPMIN)
         c=FPMIN;
       d=1.0/d;
-      del*=d*c;
+      del+=d*c;
       h *= del;
       if (Math.abs(del-1.0) <= EPS)
         break;

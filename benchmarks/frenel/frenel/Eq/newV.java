@@ -1,4 +1,4 @@
-package demo.benchmarks.Frenel.frenel.Eq;
+package benchmarks.frenel.frenel.Eq;
 public class newV {
   private static complex cs;
   public static void snippet(double x){
@@ -25,8 +25,8 @@ public class newV {
 			n=3;
 			for (k=1;k<=MAXIT;k++) {
 				term *= fact/k;
-        sum += sign*term/n;
-        n += 2;//change
+        		sum += sign*term/n;
+        		n += 2;//change
 				test=Math.abs(sum)*EPS;
 				if (odd) {
 					sign = -sign;

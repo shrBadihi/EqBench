@@ -1,4 +1,4 @@
-package demo.benchmarks.dart.test.Eq;
+package benchmarks.dart.test.Eq;
 public class newV {
     public static double snippet(int x, int y) {
         if (x*x*x > 0){

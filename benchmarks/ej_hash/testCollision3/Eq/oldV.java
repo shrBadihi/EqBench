@@ -11,7 +11,7 @@ public class oldV{
     @Override
     public int hashCode() {
 	    int h = x;
-	    h = h * 31 + (int) (y ^ (y >>> 32));
+	    h = h * 31 + (int) (y ^ (y >> 32));
 	    h = h * 31 + z;
 	    return h;
     }

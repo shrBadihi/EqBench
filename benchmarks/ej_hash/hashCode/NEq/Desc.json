@@ -14,8 +14,8 @@
   ],
   "counter-example":
   [
-      {"this.x":20},
-      {"this.y":20},
-      {"this.z":20}
+      {"this.x":10},
+      {"this.y":10},
+      {"this.z":10}
   ]
 }

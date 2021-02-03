@@ -1,4 +1,4 @@
-package benchmarks.pow.test.NEq;
+package benchmarks.pow.test.Neq;
 public class oldV{
     public static int snippet(int x, int y) {
         int result = 0; 

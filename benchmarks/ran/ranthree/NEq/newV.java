@@ -1,4 +1,4 @@
-package benchmarks.Ran.ranthree.NEq;
+package benchmarks.ran.ranthree.Neq;
 public class newV{
 	public static double snippet(int idum){//&idum
 		int inext = 0,inextp = 0;
@@ -7,7 +7,7 @@ public class newV{
 		final double FAC=(1.0/MBIG);
 		int[] ma = new int[56];
 		int i,ii,k,mj,mk;
-		if (idum < 0 || iff == 0) {
+		if (idum < 0 && iff == 0) {//change
 			iff=1;
 			mj=Math.abs(MSEED-Math.abs(idum));
 			mj %= MBIG;

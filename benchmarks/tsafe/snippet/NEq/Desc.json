@@ -1,0 +1,36 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "snippet",
+  "LOC":25,
+  "# Loops":0,
+  "# non-linear arithmetics":17,
+  "changes":  
+  [
+    {
+      "change line": 9,
+      "change type": "Delete",
+      "change operation": "Logical clause"
+    },
+    {
+      "change line": 10,
+      "change type": "Update",
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 14,
+      "change type": "Update",
+      "change operation": "Comparison operand" 
+    }
+  ],
+  "counter-example":
+  [  
+      {"double x0":1.0},
+      {"double y0":2.0},
+      {"double gspeed":1.0},
+      {"double x1":1.0},
+      {"double y1":1.0},
+      {"double x2":1.0},
+      {"double y2":1.0},
+      {"double dt":1.0}
+  ]
+}

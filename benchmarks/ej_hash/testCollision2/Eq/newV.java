@@ -11,14 +11,14 @@ public class newV{
     @Override
     public int hashCode() {
 	    int h = x;
-	    h = h * 31 + (int) (y ^ (y >>> 32));
+	    h = h * 31 + (int) (y ^ (y >> 32));
 	    h = h * 31 + z;
 	    return h;
     }
     public static void testCollision2(long y1, int z1,long y2, int z2) {
 		newV o1 = new newV(1, y1, z1);
 		newV o2 = new newV(2, y2, z2);
-		if (o1.hashCode() != o2.hashCode()) {
+		if (o1.hashCode() != o2.hashCode()) {//change
 	    	return;//change
 		}
 		System.out.println("Solved hash collision 2");//change

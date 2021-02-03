@@ -1,4 +1,4 @@
-package demo.benchmarks.tsafe.conflict.NEq;
+package benchmarks.tsafe.conflict.Neq;
 public class oldV{
   public static double snippet (double psi1, double vA, double vC, double xC0, double yC0, double psiC, double bank_ang, double degToRad, double g ) { //degToRad and g are global vars
     double dmin = 999;

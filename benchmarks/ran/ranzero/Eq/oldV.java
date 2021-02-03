@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.ranzero.Eq;
+package benchmarks.ran.ranzero.Eq;
 public class oldV{
     public static double snippet (int idum) {//idum is a global variable
         int IA=16807;

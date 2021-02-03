@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rc.NEq;
+package benchmarks.ell.rc.Neq;
 public class oldV{
   public static double snippet (double x, double y) {
     double ERRTOL=0.0012;

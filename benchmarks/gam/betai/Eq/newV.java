@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.betai.Eq;
+package benchmarks.gam.betai.Eq;
 public class newV {
   public static double snippet(double a, double b, double x) {
     double bt =0;

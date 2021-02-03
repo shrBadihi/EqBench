@@ -1,4 +1,4 @@
-package benchmarks.ej_hash.testCollision3.NEq;
+package benchmarks.ej_hash.testCollision3.Neq;
 public class oldV{
     private final int x;
     private final long y;
@@ -11,7 +11,7 @@ public class oldV{
     @Override
     public int hashCode() {
 	    int h = x;
-	    h = h * 31 + (int) (y ^ (y >>> 32));
+	    h = h * 31 + (int) (y ^ (y >> 32));
 	    h = h * 31 + z;
 	    return h;
     }

@@ -1,4 +1,4 @@
-package benchmarks.caldat.flmoon.NEq;
+package benchmarks.caldat.flmoon.Neq;
 public class newV {
     public static int jd = 0;
     public static double frac = 0.0;

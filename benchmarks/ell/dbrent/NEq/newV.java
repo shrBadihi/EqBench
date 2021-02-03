@@ -1,5 +1,4 @@
-
-package demo.benchmarks.Ell.dbrent.NEq;
+package benchmarks.ell.dbrent.Neq;
 public class newV{
   public static double snippet (double ax, double bx, double cx, double tol,double dxmin) {//degToRad and g are global vars
     int ITMAX=2;
@@ -81,19 +80,19 @@ public class newV{
       } else {
         d=0.5*(e=(dx >= 0.0 ? a-x : b-x));
       }
-      if (Math.abs(d) >= tol1) {
+      if (Math.abs(d) < tol1) {
         u=x+d;
         fu=Math.sin(u);
       } else {
         u=x+SIGN(tol1,d);
         fu=Math.sin(u);
-        if (fu > fx && fu == fx) {//change
+        if (fu > fx || fu == fx) {//change
           dxmin=x;
           return fx + dxmin ;//change
         }
       }
       du=Math.cos(u);
-      if (fu == fx) {//change
+      if (fu <= fx) {
         if (u == x) 
         a=x; 
         else 

@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.poidev.Eq;
+package benchmarks.ran.poidev.Eq;
 public class newV{
     public static double snippet (double xm, int idumx,int idum) {//idum is a global var
         idum = idumx;
@@ -13,6 +13,7 @@ public class newV{
         double magic = 530511967;//change
         if (xm < 12.0) {
             if (xm != oldm) {
+                //oldm=xm;//change
                 g=Math.exp(-xm);
             }
             em = -1;

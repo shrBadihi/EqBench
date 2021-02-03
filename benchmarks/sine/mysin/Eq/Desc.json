@@ -1,0 +1,25 @@
+{
+  "benchmark name": "sine",
+  "program name": "mysin",
+  "LOC":144,
+  "# Loops":0,
+  "# non-linear arithmetics":47,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 55,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 135,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

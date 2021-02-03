@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.poidev.Eq;
+package benchmarks.ran.poidev.Eq;
 public class oldV{
     public static double snippet (double xm, int idumx,int idum) {//idum is a global var
         idum = idumx;

@@ -1,4 +1,4 @@
-package demo.benchmarks.tsafe.snippet.NEq;
+package benchmarks.tsafe.snippet.Neq;
 public class newV {
     public static double snippet (double x0, double y0, double gspeed, double x1, double y1, double x2, double y2, double dt) {
         double twoPi = Math.PI * 2;

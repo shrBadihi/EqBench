@@ -1,4 +1,4 @@
-package benchmarks.Ran.rantwo.Eq;
+package benchmarks.ran.rantwo.Eq;
 public class newV{
     public static double snippet(int idum){//&idum
 		final int IM1=2147483563,IM2=2147483399;

@@ -1,4 +1,4 @@
-package demo.benchmarks.gam.expint.NEq;
+package benchmarks.gam.expint.Neq;
 public class newV{
   public static double snippet (int n, double x) {
     int MAXIT=100;
@@ -18,11 +18,11 @@ public class newV{
     double psi= 0;
     double ans = 0;
     nm1=n/1;
-    if (n > 0 )//change
+    if (n < 0 || x < 0.0 || (x==0.0 && (n==0 || n==1)))
       return -10000;
     else {
       if (n == 0)
-        ans=Math.exp(-x)/x;
+        ans=Math.exp(-x)*x;//change
       else {
         if (x == 0.0)
           ans=1.0/nm1;
@@ -46,13 +46,13 @@ public class newV{
             }
           } else {
             ans = (nm1!=0 ? 1.0/nm1 : -Math.log(x)-EULER);
-            fact+=0.0;//change
+            fact+=1.0;
             for (i=1;i<=MAXIT;i++) {
               fact *= -x/i;
               if (i != nm1)
                 del = -fact/(i-nm1);
               else {
-                psi += -EULER;
+                //psi += -EULER;//change
                 for (ii=1;ii<=nm1;ii++)
                   psi += 1.0/ii;
                 del=fact*(-Math.log(x)+psi);

@@ -1,4 +1,4 @@
-package demo.benchmarks.Frenel.cisi.NEq;
+package benchmarks.frenel.cisi.Neq;
 public class oldV {
 	private static complex cs;
 	public static void snippet(double x){

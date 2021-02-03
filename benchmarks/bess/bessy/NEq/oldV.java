@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessy.NEq;
+package benchmarks.bess.bessy.Neq;
 public class oldV{
     public static double snippet (double n, double x) {
         double j =0;

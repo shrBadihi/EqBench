@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.plgndr.Eq;
+package benchmarks.ell.plgndr.Eq;
 public class newV{
   public static double snippet (int l, int m, double x) {
     int i=0;

@@ -1,0 +1,30 @@
+{
+  "benchmark name": "bess",
+  "program name": "bessj",
+  "LOC":63,
+  "# Loops":2,
+  "# non-linear arithmetics":21,
+  "changes": 
+  [
+    {
+      "change line": 21,
+      "change type": "Update", 
+      "change operation": "Comparison operand"
+    },
+    {
+      "change line": 24,
+      "change type": "Update", 
+      "change operation": "Comparison operator"
+    },
+    {
+      "change line": 63,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double n":5.0},
+      {"double x":5.0}
+  ]
+}

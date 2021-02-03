@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rj.NEq;
+package benchmarks.ell.rj.Neq;
 public class newV{
   public static double snippet (double x, double y, double z, double p) {
     double ERRTOL=0.0015;
@@ -73,8 +73,9 @@ public class newV{
       yt=0.25*(yt+alamb);
       zt=0.25*(zt+alamb);
       pt=0.25*(pt+alamb);
-      ave=0.2*(xt+yt+zt+pt+pt);//change: delete the next line
-      dely=(ave-yt)/ave;
+      ave=0.2*(xt+yt+zt+pt+pt);
+      delx=(ave-xt)/ave;
+      //dely=(ave-yt)/ave;//change
       delz=(ave-zt)/ave;
       delp=(ave-pt)/ave;
     } while (MAX(MAX(Math.abs(delx),Math.abs(dely)),MAX(Math.abs(delz),Math.abs(delp))) > ERRTOL);
@@ -84,7 +85,7 @@ public class newV{
     ed=ea-3.0*ec;
     ee=eb+2.0*delp*(ea-ec);
     ans=3.0*sum+fac*(1.0+ed*(-C1+C5*ed-C6*ee)+eb*(C7+delp*(-C8+delp*C4))  +delp*ea*(C2-delp*C3)-C2*delp*ec)/(ave*Math.sqrt(ave));
-    if (p <= 0.0){
+    if (p > 0.0){
       ans=a*(b*ans+3.0*(rcx-rf(xt,yt,zt)));
     }
     return ans;

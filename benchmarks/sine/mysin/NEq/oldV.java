@@ -1,4 +1,4 @@
-package demo.benchmarks.sine.mysin.NEq;
+package benchmarks.sine.mysin.Neq;
 public class oldV{
   public static double snippet (double x ) {
     double retval = 0;

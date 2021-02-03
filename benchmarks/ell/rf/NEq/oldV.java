@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rf.NEq;
+package benchmarks.ell.rf.Neq;
 public class oldV{
   public static double snippet (double x, double y, double z) {
     double ERRTOL=0.0025;

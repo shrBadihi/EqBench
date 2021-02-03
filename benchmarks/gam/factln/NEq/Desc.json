@@ -10,15 +10,10 @@
       "change line": 7,
       "change type": "Delete",
       "change operation": "Condition" 
-    },
-    {
-      "change line": 9,
-      "change type": "Insert",
-      "change operation": "Logical clause" 
     }
   ],
   "counter-example":
   [
-      {"int n":-10}
+      {"int n":-1}
   ]
 }

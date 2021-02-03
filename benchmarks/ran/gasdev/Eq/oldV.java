@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.gasdev.Eq;
+package benchmarks.ran.gasdev.Eq;
 public class oldV{
     public static double snippet ( int idumx,int idum) {//idum is a global var
         idum = idumx;

@@ -1,4 +1,4 @@
-package benchmarks.Ran.ranthree.Eq;
+package benchmarks.ran.ranthree.Eq;
 public class newV{
     public static double snippet(int idum){//&idum
 		int inext = 0,inextp = 0;

@@ -1,4 +1,4 @@
-package benchmarks.Gam.factln.Eq;
+package benchmarks.gam.factln.Eq;
 public class oldV{
     public static double sn, cn, dn;
     public static double factln( int n)

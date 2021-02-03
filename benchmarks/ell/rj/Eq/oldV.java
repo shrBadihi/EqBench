@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rj.Eq;
+package benchmarks.ell.rj.Eq;
 public class oldV{
   public static double snippet (double x, double y, double z, double p) {
     double ERRTOL=0.0015;

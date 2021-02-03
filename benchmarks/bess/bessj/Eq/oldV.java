@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.bessj.Eq;
+package benchmarks.bess.bessj.Eq;
 public class oldV {
     public static double snippet(double n, double x) {
         int IEXP=2 * 1024;

@@ -1,4 +1,4 @@
-package demo.benchmarks.Bess.pythag.Eq;
+package benchmarks.bess.pythag.Eq;
 public class oldV {
     public static double snippet (double a, double b) {
         double absa = 0;

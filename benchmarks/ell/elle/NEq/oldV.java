@@ -1,4 +1,4 @@
-package benchmarks.Ell.elle.NEq;
+package benchmarks.ell.elle.Neq;
 public class oldV{
 	public static double elle(double phi, double ak){
 		double cc,q,s;

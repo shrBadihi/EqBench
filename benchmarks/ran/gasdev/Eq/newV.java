@@ -1,10 +1,10 @@
-package demo.benchmarks.Ran.gasdev.Eq;
+package benchmarks.ran.gasdev.Eq;
 public class newV{
     public static double snippet ( int idumx,int idum) {//idum is a global var
         idum = idumx;
         int iset=0;
         double gset = 0;
-        double gset2 = 0;
+        double gset2 = 0;//change
         double fac = 0;
         double rsq = 0;
         double v1 = 0;
@@ -18,7 +18,8 @@ public class newV{
                 rsq=v1*v1+v2*v2;
             } while (rsq >= 1.0 || rsq == 0.0);
             fac=Math.sqrt(-2.0*Math.log(rsq)/rsq);
-            gset=v1*fac; //change: remove the next line
+            gset=v1*fac;
+            //iset=1;//change
             gset2=v2*fac;//change
             return gset2;//change
         }

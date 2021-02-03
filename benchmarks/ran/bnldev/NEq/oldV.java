@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.bnldev.NEq;
+package benchmarks.ran.bnldev.Neq;
 public class oldV{
     public static double snippet (double pp,  int n, int idumx, int idum) {//idum is global Var
         idum = idumx;
@@ -65,7 +65,7 @@ public class oldV{
                 } while (em < 0.0 || em >= (en+1.0));
                 em=Math.floor(em);
                 t=1.2*sq*(1.0+y*y)*Math.exp(oldg-gammln(em+1.0)-gammln(en-em+1.0)+em*plog+(en-em)*pclog);
-            } while (ran1(idum) > t&& idum<530511967);
+            } while (ran1(idum) > t && idum<530511967);
             bnl=em;
         }
         if (p != pp)

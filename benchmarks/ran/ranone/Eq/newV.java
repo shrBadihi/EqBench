@@ -1,4 +1,4 @@
-package demo.benchmarks.Ran.ranone.Eq;
+package benchmarks.ran.ranone.Eq;
 public class newV{
     public static double snippet (int idum) {//idum is a global variable
         int IA=16807;

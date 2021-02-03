@@ -1,4 +1,4 @@
-package demo.benchmarks.Ell.rd.NEq;
+package benchmarks.ell.rd.Neq;
 public class newV{
   public static double snippet (double x, double y, double z) {
     double ERRTOL=0.0015;
@@ -29,8 +29,8 @@ public class newV{
     double xt= 0;
     double yt= 0;
     double zt= 0;
-    if (MIN(x,y) < 0.0)//change
-      return -2;//change
+    if (MIN(x,y) < 0.0 || MIN(x+y,z) < TINY || MAX(MAX(x,y),z) > BIG)
+      return -1000;
     xt=x;
     yt=y;
     zt=z;
@@ -42,7 +42,7 @@ public class newV{
       sqrtz=Math.sqrt(zt);
       alamb=sqrtx*(sqrty+sqrtz)+sqrty*sqrtz;
       sum += fac/(sqrtz*(zt+alamb));
-      fac=0.25*fac;
+      fac=25*fac;
       xt=0.25*(xt+alamb);
       yt=0.25*(yt+alamb);
       zt=0.25*(zt+alamb);
@@ -55,7 +55,7 @@ public class newV{
     eb=delz*delz;
     ec=ea-eb;
     ed=ea-6.0*2*eb;
-    ee=ed+ec+ec;
+    //ee=ed+ec+ec;
     return 3.0*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*Math.sqrt(ave));
   }
   public static double SQR(double a) {
