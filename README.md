@@ -6,7 +6,7 @@ to facilitate applicability for different equivalence checking techniques.
 ## Data Representation
 The structure of the dataset is shown below:
 
-![](/img/structure.png)
+![](/img/structure.png =250x)
 
 The archive is organized by **18** major directories corresponding to 18 benchmarks.
 Inside each benchmark directory, we have one folder for each program.
@@ -31,6 +31,6 @@ The file is structured as follows.
 The below figure shows an example of the meta-data for the *sign* program in the
 *airy* benchmark:
 
-![](/img/desc.png)
+![](/img/desc.png =250x)
 
 In addition, to ensure consistency of the dataset, we provide a schema template (*EqDescTemplate.json* and *NeqDescTemplate.json*) describing the required meta-data for each benchmark as a partof the dataset.
