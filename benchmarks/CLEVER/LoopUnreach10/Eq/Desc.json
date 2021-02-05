@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "LoopUnreach10.main",
+  "LOC":13,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 5,
+      "change type": "Update", 
+      "change operation": "Change dead code"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Change dead code"
+    }
+  ]
+}

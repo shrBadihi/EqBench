@@ -1,0 +1,20 @@
+{
+  "benchmark name": "REVE",
+  "program name": "loop2",
+  "LOC":9,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Initial value of the loop counter"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "The comparison operator (considering the change to line 4)"
+    }
+  ]
+}

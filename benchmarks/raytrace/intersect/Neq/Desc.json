@@ -1,0 +1,34 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "intersect",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 19,
+      "change type": "Update", 
+      "change operation": "Comparison operator" 
+    },
+    {
+      "change line": 22,
+      "change type": "Delete", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 23,
+      "change type": "Delete", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"this.center.x":4.0},
+      {"this.center.y":4.0},
+      {"this.center.z":4.0},
+      {"this.radius":2.0},
+      {"this.radSqr":4.0},
+      {"Sphere s":"new Sphere(new Surface(1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0), new Vector3D(2.0, 2.0, 2.0), 10.0)"}
+  ]
+}

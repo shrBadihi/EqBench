@@ -1,0 +1,29 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "getSign2.client",
+  "LOC":14,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4",
+      "change type": "Update", 
+      "change operation": "Combine Variable" 
+    },
+    {
+      "change line": "5",
+      "change type": "Delete", 
+      "change operation": "Combine Variable" 
+    },
+    {
+      "change line": "6",
+      "change type": "Delete", 
+      "change operation": "Combine Variable" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":0}
+  ]
+}

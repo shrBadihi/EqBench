@@ -1,0 +1,15 @@
+{
+  "benchmark name": "ell",
+  "program name": "ellpi",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":12,
+  "changes": 
+  [
+    {
+      "change line": 11,
+      "change type": "Update", 
+      "change operation": "Simplify the equation" 
+    }
+  ]
+}

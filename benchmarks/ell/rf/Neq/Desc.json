@@ -1,0 +1,31 @@
+{
+  "benchmark name": "ell",
+  "program name": "rf",
+  "LOC":43,
+  "# Loops":1,
+  "# non-linear arithmetics":25,
+  "changes": 
+  [
+    {
+      "change line": 26,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 24,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 39,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":-1.0},
+      {"double y":-1.0},
+      {"double z":-1.0}
+  ]
+}

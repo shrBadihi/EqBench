@@ -1,0 +1,19 @@
+{
+  "benchmark name": "bess",
+  "program name": "SQR",
+  "LOC":3,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 5,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":10.0}
+  ]
+}

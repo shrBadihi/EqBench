@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "oneBound.client",
+  "LOC":15,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "The condition"
+    },
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "The return statement"
+    }
+  ]
+}

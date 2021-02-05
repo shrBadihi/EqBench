@@ -1,0 +1,15 @@
+{
+  "benchmark name": "REVE",
+  "program name": "inlining",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4-6",
+      "change type": "Update", 
+      "change operation": "Combine two recursions in one"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "benchmark name": "REVE",
+  "program name": "limit2",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Remove unnecessary check (i.e. n<=0) for ending the recursion"
+    }
+  ]
+}

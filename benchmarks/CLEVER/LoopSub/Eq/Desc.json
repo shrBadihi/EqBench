@@ -1,0 +1,25 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "LoopSub.main",
+  "LOC":8,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Switch variable"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Switch variable"
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Switch variable"
+    }
+  ]
+}

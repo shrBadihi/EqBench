@@ -1,0 +1,15 @@
+{
+  "benchmark name": "ran",
+  "program name": "gammln",
+  "LOC":15,
+  "# Loops":1,
+  "# non-linear arithmetics":6,
+  "changes": 
+  [
+    {
+      "change line": 17,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

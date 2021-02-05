@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "betacf",
+  "LOC":48,
+  "# Loops":1,
+  "# non-linear arithmetics":29,
+  "changes": 
+  [
+    {
+      "change line": 17,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 18,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 38,
+      "change type": "Update", 
+      "change operation": "Replace variable"
+    }
+  ]
+}

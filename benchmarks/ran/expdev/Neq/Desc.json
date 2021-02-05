@@ -1,0 +1,20 @@
+{
+  "benchmark name": "ran",
+  "program name": "expdev",
+  "LOC":7,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int idumx":100.0},
+      {"int idum":100.0}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "benchmark name": "frenel",
+  "program name": "cisi",
+  "LOC":61,
+  "# Loops":2,
+  "# non-linear arithmetics":11,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Delete", 
+      "change operation": "Move to line 19" 
+    },
+    {
+      "change line": 16,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 19,
+      "change type": "Insert", 
+      "change operation": "Moved from line 15" 
+    }
+  ]
+}

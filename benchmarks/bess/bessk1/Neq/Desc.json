@@ -1,0 +1,29 @@
+{
+  "benchmark name": "bess",
+  "program name": "bessk1",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":22,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Insert", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 14,
+      "change type": "Insert", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 16,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":10.0}
+  ]
+}

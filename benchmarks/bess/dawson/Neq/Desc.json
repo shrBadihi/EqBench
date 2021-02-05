@@ -1,0 +1,19 @@
+{
+  "benchmark name": "bess",
+  "program name": "dawson",
+  "LOC":44,
+  "# Loops":2,
+  "# non-linear arithmetics":28,
+  "changes": 
+  [
+    {
+      "change line": 42,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":8.0}
+  ]
+}

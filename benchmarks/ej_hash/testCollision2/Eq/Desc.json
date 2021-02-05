@@ -1,0 +1,25 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "testCollision2",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 21,
+      "change type": "Update", 
+      "change operation": "Negate the condition" 
+    },
+    {
+      "change line": 22,
+      "change type": "Update", 
+      "change operation": "Switch the statement " 
+    },
+    {
+      "change line": 24,
+      "change type": "Update", 
+      "change operation": "Switch the statement" 
+    }
+  ]
+}

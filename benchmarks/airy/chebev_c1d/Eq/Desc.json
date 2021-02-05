@@ -1,0 +1,20 @@
+{
+  "benchmark name": "airy",
+  "program name": "chebev_c1d",
+  "LOC":15,
+  "# Loops":1,
+  "# non-linear arithmetics":6,
+  "changes": 
+  [
+    {
+      "change line": 41,
+      "change type": "Insertion", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 42,
+      "change type": "Update",
+      "change operation": "Simplify the assignment" 
+    }
+  ]
+}
