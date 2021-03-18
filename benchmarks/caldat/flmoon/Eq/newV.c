@@ -12,7 +12,8 @@ void flmoon( int n,  int nph)
 		t=c/1236.85;
 		t2=t*t;
 		as=359.2242+29.105356*c;
-		am=306.0253+385.816918*c+0.010730*(t*t);//change
+		double magic = 306.0253;//change
+		am=magic+385.816918*c+0.010730*t2;//change
 		jd=2415020+28*n+7*nph;
 		xtra=0.75933+1.53058868*c+((1.178e-4)-(1.55e-7)*t)*t2;
 		if (nph == 0 || nph == 2)

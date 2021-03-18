@@ -48,8 +48,9 @@ public class newV{
         } else {
           q=fa/fc;
           r=fb/fc;
-          p=s*(2.0*xm*q*(q-fb/fc)-(b-a)*(fb/fc-1.0));//change
-          q=(q-1.0)*(r-1.0)*(s-1.0);
+          p=s*(2.0*xm*q*(q-r)-(b-a)*(r-1.0));
+          double one=1.0;
+          q=(q-one)*(r-one)*(s-one);
         }
         if (p > 0.0) q = -q;
         p=Math.abs(p);
@@ -72,7 +73,7 @@ public class newV{
         b += d;
       else
         b += SIGN(tol1,xm);
-      fb=Math.sin(b);
+      //fb=Math.sin(b);
       return Math.sin(b);//change
     }
     return 0.0;

@@ -7,14 +7,14 @@
   "changes": 
   [
     {
-      "change line": 57,
-      "change type": "Update", 
-      "change operation": "Replace variable"
+      "change line": 32,
+      "change type": "Insert", 
+      "change operation": "split the condition"
     },
     {
-      "change line": 59,
+      "change line": 34,
       "change type": "Update", 
-      "change operation": "Replace variable"
+      "change operation": "split the condition"
     }
   ]
 }

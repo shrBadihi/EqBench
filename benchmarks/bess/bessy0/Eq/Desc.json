@@ -7,9 +7,9 @@
   "changes": 
   [
     {
-      "change line": 22,
+      "change line": 15,
       "change type": "Update", 
-      "change operation": "Replace Variable" 
+      "change operation": "Dead code" 
     }
   ]
 }

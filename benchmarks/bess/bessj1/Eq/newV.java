@@ -16,7 +16,8 @@ public class newV{
             ans=ans1/ans2;
         }
         else {
-            z=8.0/ax;
+            double eight = 8.0; 
+            z=eight/ax;//change
             y=(8.0/Math.abs(x))*(8.0/Math.abs(x));//change
             xx=ax-2.356194491;
             ans1=1.0+y*(0.183105e-2+y*(-0.3516396496e-4 +y*(0.2457520174e-5+y*(-0.240337019e-6))));

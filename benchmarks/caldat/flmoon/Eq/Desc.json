@@ -8,8 +8,8 @@
   [
     {
       "change line": 15,
-      "change type": "Update", 
-      "change operation": "Replace variable by value" 
+      "change type": "Insert", 
+      "change operation": "Replace magic literal" 
     }
   ]
 }

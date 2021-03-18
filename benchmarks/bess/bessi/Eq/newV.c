@@ -19,7 +19,8 @@ double snippet(double n, double x) {
         else {
             tox+=ACC*fabs(x);
             bip+=dum;//change
-            dum = dum +10;//change
+            if(false)//change
+                dum = dum +10;//change
             for (j=n;j>0;j--) {
                 bim+=bip+j*tox*bi;
                 bip=bi;

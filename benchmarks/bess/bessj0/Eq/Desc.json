@@ -7,9 +7,9 @@
   "changes": 
   [
     {
-      "change line": 12,
+      "change line": 6,
       "change type": "Update", 
-      "change operation": "Negate the condition" 
+      "change operation": "Dead code" 
     },
     {
       "change line": 13,

@@ -7,9 +7,14 @@
   "changes": 
   [
     {
-      "change line": 51,
-      "change type": "Update", 
-      "change operation": "Replace variable" 
+      "change line": 52,
+      "change type": "Insert", 
+      "change operation": "Magic number" 
+    },
+    {
+      "change line": 75,
+      "change type": "Delete", 
+      "change operation": "Variable" 
     },
     {
       "change line": 76,

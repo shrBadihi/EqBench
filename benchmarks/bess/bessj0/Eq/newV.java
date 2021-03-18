@@ -3,14 +3,14 @@ public class newV{
     public static double snippet(double x) {
         double ax = 0;
         double z = 0;
-        double xx = 0;
+        double xx ;//change
         double y = 0;
         double ans = 0;
         double ans1 = 0;
         double ans2 = 0;
         ax=Math.abs(x);
         if (-ax > -8.0) {//change
-            y=ax*ax;//change
+            y=x*x;
             ans1=57568490574.0+y*(-13362590354.0+y*(651619640.7 +y*(-11214424.18+y*(77392.33017+y*(-184.9052456)))));
             ans2=57568490411.0+y*(1029532985.0+y*(9494680.718 +y*(59272.64853+y*(267.8532712+y*1.0))));
             ans=ans1/ans2;

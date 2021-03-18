@@ -34,7 +34,9 @@ double snippet (double x, double y, double z) {
     double xt= 0;
     double yt= 0;
     double zt= 0;
-    if (MIN(x,y) < 0.0 || MIN(x+y,z) < TINY || MAX(MAX(x,y),z) > BIG)
+    if(MIN(x,y) < 0.0 || MIN(x+y,z) < TINY)//change
+      return -1000;//change
+    if (MAX(MAX(x,y),z) > BIG)//change
       return -1000;
     xt=x;
     yt=y;
@@ -59,7 +61,7 @@ double snippet (double x, double y, double z) {
     ea=delx*dely;
     eb=delz*delz;
     ec=ea-eb;
-    ed=ea-three*4*eb;//change
+    ed=ea-6.0*2*eb;
     ee=ed+ec+ec;
     return three*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*sqrt(ave));//change
   }

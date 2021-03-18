@@ -7,9 +7,14 @@
   "changes": 
   [
     {
-      "change line": 12,
+      "change line": 20,
+      "change type": "Insert", 
+      "change operation": "Split temporary variable" 
+    },
+    {
+      "change line": 21,
       "change type": "Update", 
-      "change operation": "Replace Variable" 
+      "change operation": "Split temporary variable" 
     }
   ]
 }

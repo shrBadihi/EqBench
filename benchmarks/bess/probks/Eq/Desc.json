@@ -8,6 +8,11 @@
   [
     {
       "change line": 14,
+      "change type": "Insert", 
+      "change operation": "Split temporary variable" 
+    },
+    {
+      "change line": 15,
       "change type": "Update", 
       "change operation": "Replace Variable" 
     },

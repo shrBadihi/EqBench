@@ -7,19 +7,14 @@
   "changes": 
   [
     {
-      "change line": 44,
-      "change type": "Insert", 
-      "change operation": "Extract variable" 
-    },
-    {
-      "change line": 45,
-      "change type": "Update", 
-      "change operation": "Replace variable" 
+      "change line": 7,
+      "change type": "Delete", 
+      "change operation": "Dead code" 
     },
     {
       "change line": 59,
       "change type": "Insert", 
-      "change operation": "Dummy statement" 
+      "change operation": "Dead code" 
     }
   ]
 }

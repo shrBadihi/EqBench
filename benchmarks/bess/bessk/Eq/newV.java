@@ -9,10 +9,11 @@ public class newV{
         if (n < 2)
             return -1000;
         tox=2.0*x;
-        bkm=bessk0(2.0*x);//change
+        bkm=bessk0(tox);
         bk=bessk1(tox);
         for (j=1;j<n;j++) {
-            bkp=bkm+j*tox*bk+tox;
+            double temp = j*tox*bk;//change
+            bkp=bkm+temp+tox;//change
             bkm=bk;
             bk=bkp;
         }

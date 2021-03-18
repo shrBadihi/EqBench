@@ -53,8 +53,9 @@ double snippet (double x1, double x2, double tol) {
         } else {
           q=fa/fc;
           r=fb/fc;
-          p=s*(2.0*xm*q*(q-fb/fc)-(b-a)*(fb/fc-1.0));//change
-          q=(q-1.0)*(r-1.0)*(s-1.0);
+          p=s*(2.0*xm*q*(q-r)-(b-a)*(r-1.0));
+          double one=1.0;
+          q=(q-one)*(r-one)*(s-one);
         }
         if (p > 0.0) q = -q;
         p=fabs(p);
@@ -77,7 +78,7 @@ double snippet (double x1, double x2, double tol) {
         b += d;
       else
         b += SIGN(tol1,xm);
-      fb=sin(b);
+      //fb=sin(b);
       return sin(b);//change
     }
     return 0.0;

@@ -12,7 +12,8 @@ double snippet (double alam) {
         double termbf=0.0;
         a2 = -2.0*alam*alam;
         for (j=1;j<=alam;j++) {
-            term=2.0*exp(a2*j*j);//change
+            double temp = a2*j*j;//change
+            term=2.0*exp(temp);//change
             sum += term;
             if (j >= EPS1 || j >=EPS2)
                 return sum;

@@ -4,7 +4,7 @@ public class newV{
     public static void snippet(double uu, double emmc) {
         final double CA = 1.0e-8;
         boolean bo;
-        int i, ii, l = 0;
+        int i, ii, l ;//change
         double a, b, c = 0, d = 0, emc, u;
         double[] em = new double[13], en = new double[13];
 
@@ -41,8 +41,7 @@ public class newV{
                     dn = (en[ii] + a) / (b + a);
                     a = c / b;
                 }
-                double temp = 1.0;//change
-                a = temp / Math.sqrt(c * c + temp);//change
+                a = 1.0 / Math.sqrt(c * c + 1.0);
                 sn = (sn >= 0.0 ? a : -a);
                 cn = c * sn;
             }

@@ -18,8 +18,8 @@
     },
     {
       "change line": 135,
-      "change type": "Update", 
-      "change operation": "Replace variable" 
+      "change type": "Insert", 
+      "change operation": "Unreachable code" 
     }
   ]
 }
