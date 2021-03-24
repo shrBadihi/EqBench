@@ -76,15 +76,14 @@ Sphere SphereConstructor(Surface s, Vector3D c, float r) {
 		  return obj;
 }
 bool intersect(Sphere s, Sphere d) {
-  float dx = s.center.x - d.center.x;
+  float dxRenamed = s.center.x - d.center.x;//change
   float dy = s.center.y - d.center.y;
   float dz = s.center.z - d.center.z;
-  float t = s.radSqr - dx*dx - dy*dy - dz*dz;
-  bool result = true;//change
+  float t = s.radSqr - dxRenamed*dxRenamed - dy*dy - dz*dz;//change
   if (t < 0)
-    result=false;//change
+    return false;
   t =(float) sqrt(t);
   if (t < 0)
-    result=false;//change
-  return result;//change
+    return false;
+  return true;
 }

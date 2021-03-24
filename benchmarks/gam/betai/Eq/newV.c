@@ -1,21 +1,23 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 double gammln(double xx);
 double betacf(double a, double b, double x);
+bool checkCond(double a, double b, double x);
  double snippet(double a, double b, double x) {
     double bt =0;
     if (x == 0.0 || x == 1.0)
       bt = 0.0;
     else
       bt = exp(gammln(a + b) - gammln(a) - gammln(b) + a * log(x) + b * log(1.0 - x));
-    double a1 = a + 1.0;//change
-    double b1 = b + 1.0;//change
-    if (x < a1/(a1+b1))//change
+    if (checkCond(a,b,x))//change
       return bt * betacf(a, b, x) / a;
     else
       return 1.0 - bt * betacf(b, a, 1.0 - x) / b;
   }
-
+bool checkCond(double a, double b, double x){
+    return x < (a + 1.0) / (a + b + 2.0);
+}
 double betacf(double a, double b, double x) {
     const int MAXIT = 2;
     const double EPS = 1e-14;

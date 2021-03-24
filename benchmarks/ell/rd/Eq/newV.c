@@ -5,6 +5,7 @@ double SQR(double a);
 double SIGN(double a, double b);
 double MAX(double a, double b);
 double MIN(double a, double b);
+bool CheckCond(double x, double y, double z, double TINY, double BIG);
 double snippet (double x, double y, double z) {
     double ERRTOL=0.0015;
     double TINY=1.0e-25;
@@ -34,9 +35,7 @@ double snippet (double x, double y, double z) {
     double xt= 0;
     double yt= 0;
     double zt= 0;
-    if(MIN(x,y) < 0.0 || MIN(x+y,z) < TINY)//change
-      return -1000;//change
-    if (MAX(MAX(x,y),z) > BIG)//change
+    if (CheckCond(x,y,z, TINY, BIG))//change
       return -1000;
     xt=x;
     yt=y;
@@ -63,7 +62,7 @@ double snippet (double x, double y, double z) {
     ec=ea-eb;
     ed=ea-6.0*2*eb;
     ee=ed+ec+ec;
-    return three*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*sqrt(ave));//change
+    return 3.0*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*sqrt(ave));
   }
 double SQR(double a) {
     return a*a;
@@ -77,3 +76,6 @@ double MAX(double a, double b){
 double MIN(double a, double b){
     return b < a ? (b) : (a);
   }
+bool CheckCond(double x, double y, double z, double TINY, double BIG){
+  return MIN(x,y) < 0.0 || MIN(x+y,z) < TINY || MAX(MAX(x,y),z) > BIG;
+}

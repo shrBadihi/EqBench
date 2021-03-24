@@ -6,14 +6,14 @@ public class newV {
       bt = 0.0;
     else
       bt = Math.exp(gammln(a + b) - gammln(a) - gammln(b) + a * Math.log(x) + b * Math.log(1.0 - x));
-    double a1 = a + 1.0;//change
-    double b1 = b + 1.0;//change
-    if (x < a1/(a1+b1))//change
+    if (checkCond(a,b,x))//change
       return bt * betacf(a, b, x) / a;
     else
       return 1.0 - bt * betacf(b, a, 1.0 - x) / b;
   }
-
+  public static boolean checkCond(double a, double b, double x){
+    return x < (a + 1.0) / (a + b + 2.0);
+  }
   public static double betacf(double a, double b, double x) {
     final int MAXIT = 2;
     final double EPS = 1e-14;

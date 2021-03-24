@@ -1,0 +1,20 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "intersect",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Update", 
+      "change operation": "Update variable" 
+    },
+    {
+      "change line": 18,
+      "change type": "Update", 
+      "change operation": "Update variable" 
+    }
+  ]
+}

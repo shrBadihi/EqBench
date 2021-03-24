@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 double snippet (double a,double b,double x) {
-    int MAXIT=2;//chagne
+    int MAXIT=100;
     double EPS=1e-14;
     double FPMIN=-7837383829242323.0/EPS;
     int m=0;

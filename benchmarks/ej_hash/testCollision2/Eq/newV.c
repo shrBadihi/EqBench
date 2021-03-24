@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 typedef struct newV {
     int x;
     long y;
@@ -17,11 +18,13 @@ int hashCode(ejhash obj) {
 	h = h * 31 + obj.z;
 	return h;
 }
+bool checkCond(ejhash o1, ejhash o2){
+	return hashCode(o1) == hashCode(o2);
+}
 void testCollision2(long y1, int z1,long y2, int z2) {
 	    ejhash o1 = constructor(1, y1, z1);
 	    ejhash o2 = constructor(2, y2, z2);
-	    if (hashCode(o1) != hashCode(o2)) {//change
-			return;//change
+	    if (checkCond(o1, o2)) {//change
+			printf("%s\n","Solved hash collision 2");
 	    }
-		 printf("%s\n","Solved hash collision 2");//change
 }

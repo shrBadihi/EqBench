@@ -7,9 +7,9 @@
   "changes": 
   [
     {
-      "change line": 20,
-      "change type": "Update", 
-      "change operation": "Arithmetic" 
+      "change line": 21,
+      "change type": "Insert", 
+      "change operation": "Comparison" 
     }
   ],
   "counter-example":

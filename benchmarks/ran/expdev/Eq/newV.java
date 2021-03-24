@@ -2,11 +2,11 @@ package benchmarks.ran.expdev.Eq;
 public class newV {
     public static double snippet(int idumx, int idum) {
         idum = idumx;
-        double dum = 0.0;
+        double dumRenamed = 0.0;//change
         do{
-            dum = ran1(idumx);//change
-        }while (dum == 0.0);
-        return -Math.log(dum);
+            dumRenamed=ran1(idum);//change
+        }while (dumRenamed == 0.0);//change
+        return -Math.log(dumRenamed);//change
     }
     public static double ran1(int idum){
         int IA=16807;

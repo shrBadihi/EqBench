@@ -7,7 +7,6 @@ double snippet (double x) {
         double ans = 0;
         if (x <= 2.0) {
             y=x*x/4.0;
-            ans=(-log(x/2.0)*bessi0(x));//change
         }
         else {
             y=2.0/x;

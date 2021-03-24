@@ -12,17 +12,16 @@ class Sphere {
         radSqr = r*r;
     }
     public boolean intersect(Sphere s) {
-        float dx = center.x - s.center.x;
+        float dxRenamed = center.x - s.center.x;//change
         float dy = center.y - s.center.y;
         float dz = center.z - s.center.z;
-        float t = radSqr - dx*dx - dy*dy - dz*dz;
-        boolean result = true;//change
+        float t = radSqr - dxRenamed*dxRenamed - dy*dy - dz*dz;//change
         if (t < 0)
-            result = false;//change
+            return false;
         t = (float) Math.sqrt(t);
         if (t < 0)
-            result = false;//change
-        return result;//change
+            return false;
+        return true;
     }
 }
 class Surface {

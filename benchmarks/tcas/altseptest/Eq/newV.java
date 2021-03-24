@@ -25,31 +25,36 @@ public class newV{
       tcas_equipped = 1;
     else
       tcas_equipped = 0;
-    if(Two_of_Three_Reports_Valid==1 && Other_RAC == NO_INTENT)
+    if(checkCond1(Two_of_Three_Reports_Valid, Other_RAC, NO_INTENT))//change
       intent_not_known += 1;
     else
-       intent_not_known += 0;
+      intent_not_known += 0;
     alt_sep += UNRESOLVED;
-    boolean conditionCheck = enabled==1 && ((tcas_equipped==1 && intent_not_known==1)  || tcas_equipped==0);//change
-    if (conditionCheck){
+    if (enabled==1 && ((tcas_equipped==1 && intent_not_known==1)  || tcas_equipped==0)){
       if ((Non_Crossing_Biased_Climb(Climb_Inhibit, Alt_Layer_Value,Other_Tracked_Alt,  Own_Tracked_Alt,  Two_of_Three_Reports_Valid,  need_upward_RA,  need_downward_RA,  Other_RAC, High_Confidence,   Own_Tracked_Alt_Rate,  Cur_Vertical_Sep,  Other_Capability , Down_Separation, Up_Separation)==1&& Own_Below_Threat(Climb_Inhibit, Alt_Layer_Value, Other_Tracked_Alt,  Own_Tracked_Alt,  Two_of_Three_Reports_Valid,  need_upward_RA,  need_downward_RA,  Other_RAC, High_Confidence,   Own_Tracked_Alt_Rate,  Cur_Vertical_Sep,  Other_Capability , Down_Separation,  Up_Separation )==1))
-          need_upward_RA = 1;
+        need_upward_RA = 1;
       else
-          need_upward_RA = 0;
+        need_upward_RA = 0;
       if((Non_Crossing_Biased_Descend(Climb_Inhibit, Alt_Layer_Value, Other_Tracked_Alt,  Own_Tracked_Alt,  Two_of_Three_Reports_Valid,  need_upward_RA,  need_downward_RA,  Other_RAC, High_Confidence,   Own_Tracked_Alt_Rate,  Cur_Vertical_Sep,  Other_Capability,  Down_Separation,  Up_Separation)==1&& Own_Above_Threat(Climb_Inhibit, Alt_Layer_Value, Other_Tracked_Alt,  Own_Tracked_Alt,  Two_of_Three_Reports_Valid,  need_upward_RA,  need_downward_RA,  Other_RAC, High_Confidence,   Own_Tracked_Alt_Rate,  Cur_Vertical_Sep,  Other_Capability ,  Down_Separation,  Up_Separation )==1))
-         need_downward_RA = 1;
+        need_downward_RA = 1;
       else
-         need_downward_RA = 0;
-    if (need_upward_RA==1 && need_downward_RA==1)
+        need_downward_RA = 0;
+      if (checkCond2(need_upward_RA, need_downward_RA))//change
         alt_sep = UNRESOLVED;
       else if (need_upward_RA==1)
         alt_sep = UPWARD_RA;
       else if (need_downward_RA==1)
         alt_sep = DOWNWARD_RA;
       else
-        alt_sep = 0;//change
+        alt_sep = UNRESOLVED;
     }
     return alt_sep;
+  }
+  public static boolean checkCond1(int Two_of_Three_Reports_Valid, int Other_RAC, int NO_INTENT){
+    return Two_of_Three_Reports_Valid==1 && Other_RAC == NO_INTENT;
+  }
+  public static boolean checkCond2(int need_upward_RA, int need_downward_RA){
+    return need_upward_RA==1 && need_downward_RA==1;
   }
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
   public static int Non_Crossing_Biased_Climb(int  Climb_Inhibit, int Alt_Layer_Value, int Other_Tracked_Alt, int Own_Tracked_Alt, int Two_of_Three_Reports_Valid, int need_upward_RA, int need_downward_RA, int Other_RAC,int High_Confidence, int  Own_Tracked_Alt_Rate, int Cur_Vertical_Sep, int Other_Capability , int Down_Separation, int Up_Separation){

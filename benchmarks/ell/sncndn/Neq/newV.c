@@ -14,7 +14,7 @@ void snippet(double uu, double emmc) {
         u = uu;
         if (emc != 0.0 && emc>100) {//change
             bo = (emc < 0.0);
-            if (false) {//change
+            if (true) {//change
                 d = 1.0 - emc;
                 emc /= -1.0 / d;
                 u *= (d = sqrt(d));

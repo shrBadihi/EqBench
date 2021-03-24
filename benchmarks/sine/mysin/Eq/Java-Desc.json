@@ -8,13 +8,13 @@
   [
     {
       "change line": 15,
-      "change type": "Insert", 
-      "change operation": "Extract variable" 
+      "change type": "Update", 
+      "change operation": "Rename variable" 
     },
     {
-      "change line": 55,
+      "change line": 73,
       "change type": "Update", 
-      "change operation": "Replace variable" 
+      "change operation": "Rename variable" 
     },
     {
       "change line": 135,

@@ -4,11 +4,11 @@
 double ran1(double idum);
 double snippet(int idumx, int idum) {
         idum = idumx;
-        double dum = 0.0;
+        double dumRenamed = 0.0;
         do{
-            dum = ran1(idumx);//change
-        }while (dum == 0.0);
-        return -log(dum);
+            dumRenamed = ran1(idumx);//change
+        }while (dumRenamed == 0.0);
+        return -log(dumRenamed);
 }
 double ran1(double idum){
         int IA=16807;

@@ -13,8 +13,8 @@
     },
     {
       "change line": 8,
-      "change type": "Update", 
-      "change operation": "Simplify the If condition (line 9 is dead code)" 
+      "change type": "Delete", 
+      "change operation": "Remove deadcode" 
     }
   ]
 }

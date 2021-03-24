@@ -12,7 +12,7 @@ public class oldV{
     int IEEE_MAX = 2047;
     int IEEE_BIAS = 1023;
     int IEEE_MANT = 52;
-    double half = 1.0/2.0;
+    double halfRenamed = 1.0/2.0;
     double _2_pi_hi = Double.longBitsToDouble((long)0x3FE45F306DC9C883L);
     double pi2_hi = Double.longBitsToDouble((long)0x3FF921FB54442D18L);
     double pi2_lo = Double.longBitsToDouble((long)0x3C91A62633145C07L);
@@ -70,7 +70,7 @@ public class oldV{
       int bot2=0;
       double xn_d =0.0;
       double md =0.0; // should be bit union
-      xm = Math.floor(x * _2_pi_hi + half);
+      xm = Math.floor(x * _2_pi_hi + halfRenamed);//change
       xn_d = xm + mag52;
       long l_xn = Double.doubleToRawLongBits(xn_d);
       int xn_m2 = (int)(l_xn & 0xFFFFFFFF);

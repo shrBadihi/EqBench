@@ -8,7 +8,7 @@
   [
     {
       "change line": 10,
-      "change type": "Update", 
+      "change type": "Insert", 
       "change operation": "Arithmetic" 
     },
     {

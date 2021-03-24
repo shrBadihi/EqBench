@@ -7,11 +7,6 @@
   "changes": 
   [
     {
-      "change line": 4,
-      "change type": "Update", 
-      "change operation": "Arithmetic"
-    },
-    {
       "change line": 22,
       "change type": "Update", 
       "change operation": "Logical operator"

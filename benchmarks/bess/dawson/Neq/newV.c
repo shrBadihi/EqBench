@@ -29,7 +29,7 @@ double snippet(double x) {
             }
 
         }
-        if (fabs(x) < 0.2) {
+        if (fabs(x) < 0.2 || fabs(x) > 4.0){//change
             x2=x*x;
             ans=x*(1.0-A1*x2*(1.0-A2*x2*(1.0-A3*x2)));
         }
@@ -42,7 +42,7 @@ double snippet(double x) {
             d1=n0+1;
             d2=d1-2.0;
             sum=0.0;
-            for (i=0;i<NMAX;i++,d1+=2.0,d2-=2.0,e1+=e2)//change
+            for (i=0;i<NMAX;i++,d1+=2.0,d2-=2.0,e1*=e2)
                 sum += c*(e1*d1+1.0*(d2*e1));
             ans=0.5641895835+SIGN(exp(-xp*xp),x)*sum;
         }

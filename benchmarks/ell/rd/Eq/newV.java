@@ -29,9 +29,7 @@ public class newV{
     double xt= 0;
     double yt= 0;
     double zt= 0;
-    if(MIN(x,y) < 0.0 || MIN(x+y,z) < TINY)//change
-      return -1000;//change
-    if (MAX(MAX(x,y),z) > BIG)//change
+    if (CheckCond(x,y,z, TINY, BIG))//change
       return -1000;
     xt=x;
     yt=y;
@@ -58,7 +56,7 @@ public class newV{
     ec=ea-eb;
     ed=ea-6.0*2*eb;
     ee=ed+ec+ec;
-    return three*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*Math.sqrt(ave));//change
+    return 3.0*sum+fac*(1.0+ed*(-C1+C5*ed-C6*delz*ee) +delz*(C2*ee+delz*(-C3*ec+delz*C4*ea)))/(ave*Math.sqrt(ave));
   }
   public static double SQR(double a) {
     return a*a;
@@ -74,5 +72,8 @@ public class newV{
 
   public static double MIN(double a, double b){
     return b < a ? (b) : (a);
+  }
+  public static boolean CheckCond(double x, double y, double z, double TINY, double BIG){
+    return MIN(x,y) < 0.0 || MIN(x+y,z) < TINY || MAX(MAX(x,y),z) > BIG;
   }
 }

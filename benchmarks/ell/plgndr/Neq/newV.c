@@ -21,7 +21,7 @@ double snippet (int l, int m, double x) {
       }
     }
     if (l == m){
-      return pmm+fabs(fact);//change
+      return pmm;
     }
     else {
       pmmp1=x*(2*m+1)*pmm;
@@ -30,6 +30,6 @@ double snippet (int l, int m, double x) {
         pmm=pmmp1;
         pmmp1=pll;
       }
-       return pll + (2 * fact);//change
+        return pll;
     }
 }

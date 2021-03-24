@@ -1,5 +1,6 @@
 #include <math.h>
 #include <string.h>
+#include <stdbool.h>
 double longBitsToDoubleC(long x);
 long doubleToRawLongBits(double x);
 double snippet (double x ) {
@@ -14,8 +15,7 @@ double snippet (double x ) {
     int IEEE_MAX = 2047;
     int IEEE_BIAS = 1023;
     int IEEE_MANT = 52;
-    double sixth = 1.0/6.0;//change
-    double half = 1.0/2.0;
+    double halfRenamed = 1.0/2.0;//change
     double _2_pi_hi = longBitsToDoubleC((long)0x3FE45F306DC9C883L);
     double pi2_hi = longBitsToDoubleC((long)0x3FF921FB54442D18L);
     double pi2_lo = longBitsToDoubleC((long)0x3C91A62633145C07L);
@@ -55,7 +55,7 @@ double snippet (double x ) {
     else if( xexp <= (IEEE_BIAS - IEEE_MANT - 2) ){
       return x;
     }else if( xexp <= (IEEE_BIAS - IEEE_MANT/4) ){
-       return x*(1.0-x*x*sixth);//change
+      return x*(1.0-x*x*1.0/6.0);
     }
     if (md_b_sign == 1){
       x = -x;
@@ -73,7 +73,7 @@ double snippet (double x ) {
       int bot2=0;
       double xn_d =0.0;
       double md =0.0; // should be bit union
-      xm = floor(x * _2_pi_hi + half);
+      xm = floor(x * _2_pi_hi + halfRenamed);//change
       xn_d = xm + mag52;
       long l_xn = doubleToRawLongBits(xn_d);
       int xn_m2 = (int)(l_xn & 0xFFFFFFFF);
@@ -134,8 +134,8 @@ double snippet (double x ) {
     }
     x = x * _2_pi_hi;
     if (x > X_EPS){
-      if (x<= X_EPS) return 0;//change
       x2 = x*x;
+      if(false) x=100;//change
       x *= (((((((-0.64462136749e-9*(x2) + -0.359880911703133e-5)*(x2) +
               0.16044116846982831e-3)*(x2) + -0.468175413106023168e-2)*(x2) + 0.7969262624561800806e-1)*(x2) +
               -0.64596409750621907082)*(x2) + -0.64596409750621907082)*(x2) + -0.64596409750621907082);

@@ -17,8 +17,8 @@ public class newV{
     }
     public static void testCollision4(int x1, long y1, int z1) {
 		newV o1 = new newV(1234, Double.doubleToRawLongBits(3.14159E123), 3141);
-		newV o2 = new newV(1234, y1, z1);//change
-		if (o1.hashCode() == o2.hashCode()) {
+		newV o2 = new newV(x1, y1, z1);
+		if (o1.hashCode() == o2.hashCode() && y1==z1) {//change
 			System.out.println("Solved hash collision 4");
 		}
 	}
