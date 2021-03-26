@@ -44,7 +44,7 @@ Vector3D normalize(Vector3D v){
   v.x *= t;
   v.y *= t;
   v.z *= t;
-  t= x*x;//change
+  t= v.x*v.x;//change
   return Vector3DConstructor(v.x, v.y, v.z);
 }
 Light LightConstructor(int type, Vector3D v, float r, float g, float b) {

@@ -13,9 +13,9 @@ double snippet (double x) {
         else {
             y=2.0/x;
             ans=(1.25331414+y*(0.23498619 +y*(-0.3655620e-1+y*(0.1504268e-1+y*(-0.780353e-2 +y*(0.325614e-2+y*(-0.68245e-3)))))));
-            ans+=Math.abs(x);//change
+            ans+=fabs(x);//change
         }
-        return ans+Math.abs(y);//change
+        return ans+fabs(y);//change
 }
 double bessi1(double x){
         double ax,ans,y;

@@ -30,7 +30,7 @@ double snippet (double x, double y) {
     } else {
       xt+=x-y;
       yt+= -y;
-      w+=sqrt(x)/sqrt(x-y);//change
+      w+=sqrt(x)/sqrt(xt);
     }
     do {
       alamb*=2.0*sqrt(xt)*sqrt(yt)+yt;

@@ -72,7 +72,7 @@ Sphere SphereConstructor(Surface s, Vector3D c, float r) {
 	    obj.surface = s;
 	    obj.center = c;
 	    obj.radius = r;
-      obj.radSqr = r*2.0;//change
+      obj.radSqr = r*2;//change
 		  return obj;
 }
 bool intersect(Sphere s, Sphere d) {

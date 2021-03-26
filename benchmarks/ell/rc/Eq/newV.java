@@ -29,7 +29,7 @@ public class newV{
     } else {
       xt+=x-y;
       yt+= -y;
-      w+=Math.sqrt(x)/Math.sqrt(x-y);//change
+      w+=Math.sqrt(x)/Math.sqrt(xt);
     }
     do {
       alamb*=2.0*Math.sqrt(xt)*Math.sqrt(yt)+yt;

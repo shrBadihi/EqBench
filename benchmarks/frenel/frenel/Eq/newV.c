@@ -66,7 +66,7 @@ void snippet(double x){
 		complex b,cc,d,h,del;
 
 		ax=fabs(x);
-		if (ax < Math.sqrt(FPMIN)) {
+		if (ax < sqrt(FPMIN)) {
 			cs = assign(ax);
 		} else if (ax <= XMIN) {
 			sum=sums=0.0;
@@ -118,7 +118,7 @@ void snippet(double x){
 			complex temppp = multiply(constructor(cos(0.5*pix2),sin(0.5*pix2)),h);//change
 			cs=multiply(constructor(0.5,0.5),(minus(constructor(1.0,0.0),temppp)));
 		}
-		if (x < 0.0) {change
+		if (x < 0.0) {
 			cs = constructor(-getreal(cs),-getimag(cs));;
 		}
 		return;

@@ -15,11 +15,6 @@
       "change line": 23,
       "change type": "Update", 
       "change operation": "Replace variable"
-    },
-    {
-      "change line": 32,
-      "change type": "Update", 
-      "change operation": "Replace variable" 
     }
   ]
 }

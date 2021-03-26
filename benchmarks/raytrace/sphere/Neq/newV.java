@@ -9,7 +9,7 @@ class Sphere {
         surface = s;
         center = c;
         radius = r;
-        radSqr = r*2.0;//change
+        radSqr = r*2;//change
     }
     public boolean intersect(Sphere s) {
         float dx = center.x - s.center.x;
