@@ -26,7 +26,7 @@ public class newV{
             }
 
         }
-        if (fabs(x) < 0.2 || fabs(x) > 4.0){//change
+        if (Math.abs(x) < 0.2 || Math.abs(x) > 4.0){//change
             x2=x*x;
             ans=x*(1.0-A1*x2*(1.0-A2*x2*(1.0-A3*x2)));
         }

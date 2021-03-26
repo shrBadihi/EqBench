@@ -7,11 +7,6 @@
   "changes": 
   [
     {
-      "change line": 7,
-      "change type": "Delete", 
-      "change operation": "Dead code" 
-    },
-    {
       "change line": 59,
       "change type": "Insert", 
       "change operation": "Dead code" 

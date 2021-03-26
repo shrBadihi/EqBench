@@ -5,8 +5,8 @@ double snippet (double alam) {
         double EPS1=1.0e-6;
         double EPS2=1.0e-16;
         double j = 0;
-        double a2 =0;
-        double fac;//change
+        double a2;//change
+        double fac =1.0;//change
         double sum=0.0;
         double term =0;
         double termbf=0.0;

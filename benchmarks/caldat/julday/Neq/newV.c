@@ -22,5 +22,5 @@ double snippet(double mmj,  double idj,  double iyyyj) {
             ja=(0.01*jy);
             jul += 2.0-ja+(0.25*ja);
         }
-        return jul+Math.abs(iyyyj);//change
+        return jul+fabs(iyyyj);//change
 }

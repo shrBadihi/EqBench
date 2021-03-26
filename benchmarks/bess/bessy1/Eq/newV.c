@@ -5,8 +5,8 @@ double bessj1(double x);
 double snippet (double x) {
         double z = 0;
         double xx = 0;
-        double y = 0;
-        double ans;//change
+        double y ;//change
+        double ans = 0 ;
         double ans1= 0;
         double ans2= 0;
         if (x < 8.0) {

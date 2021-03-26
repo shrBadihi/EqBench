@@ -117,7 +117,7 @@ void snippet(double x){
 			h = multiply(h,constructor(ax,-ax));
 			cs=multiply(constructor(0.5,0.5),(minus(constructor(1.0,0.0),multiply(constructor(cos(0.5*pix2),sin(0.5*pix2)),h))));
 		}
-		if (x < 0.0) {change
+		if (x < 0.0) {
 			cs = constructor(-getreal(cs),-getimag(cs));;
 		}
 		return;

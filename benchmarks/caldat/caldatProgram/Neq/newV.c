@@ -1,7 +1,55 @@
 #include <stdio.h>
 #include <math.h>
-int julday( int mmj,  int idj,  int iyyyj);
-int snippet (int IYBEG) {
+double julday( double mmj,  double idj,  double iyyyj);
+ int jd = 0;
+ double frac = 0.0;
+ int mm,id,iyyy;
+void flmoon( int n,  int nph)
+{
+		const double RAD=3.141592653589793238/180.0;
+		int i;
+		double am,as,c,t,t2,xtra;
+		c=n+nph/4.0;
+		t=c/1236.85;
+		t2=t*t;
+		as=359.2242+29.105356*c;
+		am=306.0253+385.816918*c+0.010730*t2;
+		jd=2415020+28*n+7*nph;
+		xtra=0.75933+1.53058868*c+((1.178e-4)-(1.55e-7)*t)*t2;
+		if (nph == 0 )//change
+			xtra += (0.1734-3.93e-4*t)*sin(RAD*as)-0.4068*sin(RAD*am);
+		else if (nph == 1 || nph == 3)
+			xtra += (0.1721-4.0e-4*t)*sin(RAD*as)-0.6280*sin(RAD*am);
+        else 
+            xtra = 0.0;
+		i=(int) (xtra >= 0.0 ? floor(xtra) : ceil(xtra-1.0));
+		jd += i;
+		frac=xtra-i;
+}
+void caldat( int julian){
+		const int IGREG=2299161;
+		int ja,jalpha,jb,jc,jd,je;
+
+		if (julian >= IGREG) {
+			jalpha=(int) (((julian-1867216)-0.25)/36524.25);
+			ja=(int) (julian+1+jalpha-(0.25*jalpha));
+		} else if (julian < 0) {
+			ja=julian+36525*(1-julian/36525);
+		} else
+			ja=julian;
+		jb=ja+1524;
+		jc=(int) (6680.0+((jb-2439870)-122.1)/365.25);
+		jd=(int) (365*jc+(0.25*jc));
+		je=(int) ((jb-jd)/30.6001);
+		id=(int) (jb-jd-(30.6001*je));
+		mm=je-1;
+		mm -= 12;//change
+		iyyy=jc-4715;
+		if (mm > 2) --iyyy;
+		if (iyyy <= 0) --iyyy;
+		if (julian < 0) iyyy -= 100*(1-julian/36525);
+}
+int badluk (int IYBEG) {
         int IYEND=IYBEG+1;
         double ZON=-5.0;
         int ic =0;
@@ -50,7 +98,7 @@ int snippet (int IYBEG) {
         }
         return 0;
 }
-int julday( int mmj,  int idj,  int iyyyj)
+double julday( double mmj,  double idj,  double iyyyj)
 {
         double IGREG=15.0+31.0*(10.0+12.0*1582.0);
         double ja =1.0;
@@ -73,5 +121,5 @@ int julday( int mmj,  int idj,  int iyyyj)
             ja=(0.01*jy);
             jul += 2.0-ja+(0.25*ja);
         }
-        return jul+Math.abs(iyyyj);//change
+        return jul+fabs(iyyyj);//change
 }

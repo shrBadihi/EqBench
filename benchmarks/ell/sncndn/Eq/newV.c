@@ -5,7 +5,7 @@ double sn, cn, dn;
 void snippet(double uu, double emmc) {
         const double CA = 1.0e-8;
         bool bo;
-        int i, ii, l ;//change
+        int i, ii, l = 0;
         double a, b, c = 0, d = 0, emc, u;
         double em[13];
         double en[13];

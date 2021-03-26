@@ -4,7 +4,7 @@ public class newV{
     public static void snippet(double uu, double emmc) {
         final double CA = 1.0e-8;
         boolean bo;
-        int i, ii, l ;//change
+        int i, ii, l = 0;
         double a, b, c = 0, d = 0, emc, u;
         double[] em = new double[13], en = new double[13];
 

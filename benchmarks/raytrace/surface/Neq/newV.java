@@ -31,9 +31,9 @@ class Surface {
     private static final float TINY = 0.001f;
     private static final float I255 = 0.00392156f;  
     public Surface(float rval, float gval, float bval, float a, float d, float s, float n, float r, float t, float index) {
-        ir = rval; ig = 10.0; ib = bval;
+        ir = rval; ig = 10; ib = bval;//change
         ka = a; kd = d; ks = s; ns = n;
-        kr = r/I255; kt = t; nt = index;
+        kr = r/I255; kt = t; nt = index;//change
     }
 }
 class Light {

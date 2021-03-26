@@ -35,6 +35,6 @@ double snippet(int idum){//&idum
 		iy=iv[j]-idum2;
 		iv[j] = idum;
 		if (iy < 1) iy += IMM1;
-		f ((temp=AM*iy) < RNMX) return RNMX;//temp
+		if ((temp=AM*iy) < RNMX) return RNMX;//change
 		else return temp;
     }

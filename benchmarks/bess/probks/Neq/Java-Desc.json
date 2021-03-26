@@ -7,8 +7,13 @@
   "changes": 
   [
     {
-      "change line": 9,
+      "change line": 8,
       "change type": "Delete", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
       "change operation": "Arithmetic"
     },
     {

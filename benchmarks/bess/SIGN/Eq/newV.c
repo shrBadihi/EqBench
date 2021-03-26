@@ -8,5 +8,4 @@ double snippet(double a, double b) {
             return a;
         else 
             return -a;//change    
-    }
 }
