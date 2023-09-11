@@ -7,7 +7,7 @@ int lib(unsigned int x, int b) {
     for (int i = 0; i < NUMPRIMES; i++) {
       int mod = x % primes[i];
       if (mod == 0)
-        return x == primes[i];
+        return 0;
     }
   }
   return 1;
