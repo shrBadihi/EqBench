@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ell",
+  "program name": "rc",
+  "method name": "snippet",
+  "LOC":38,
+  "# Loops":1,
+  "# non-linear arithmetics":27,
+  "changes": 
+  [
+    {
+      "change line": 22,
+      "change type": "Delete", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":1.0},
+      {"double y":0.0}
+  ]
+}

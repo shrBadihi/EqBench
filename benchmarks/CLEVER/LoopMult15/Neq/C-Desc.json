@@ -1,0 +1,25 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "LoopMult15.main",
+  "function name": "foo",
+  "LOC":11,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 3,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":15}
+  ]
+}

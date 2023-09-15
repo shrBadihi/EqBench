@@ -20,7 +20,7 @@ public class newV {
 			xtra += (0.1734-3.93e-4*t)*Math.sin(RAD*as)-0.4068*Math.sin(RAD*am);
 		else if (nph == 1 || nph == 3)
 			xtra += (0.1721-4.0e-4*t)*Math.sin(RAD*as)-0.6280*Math.sin(RAD*am);
-		else 
+		else
 			System.out.println("nph is unknown in flmoon");
 		i=(int) (xtra >= 0.0 ? Math.floor(xtra) : Math.ceil(xtra-1.0));
 		jd += i;

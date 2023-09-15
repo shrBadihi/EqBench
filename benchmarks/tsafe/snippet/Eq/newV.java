@@ -21,7 +21,7 @@ public class newV{
     if (instHdg0 < 0.)
         instHdg0 += 360 * deg;
     if (instHdg0 > twoPi)//change
-    instHdg0 -= 360 * deg;
+        instHdg0 -= 360 * deg;
     double hdg_diff = normAngle(instHdg - instHdg0);
     double phi = Math.tan((hdg_diff * gspeed)/(gacc * dt));
     return phi / deg;

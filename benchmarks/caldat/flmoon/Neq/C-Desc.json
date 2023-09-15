@@ -1,0 +1,26 @@
+{
+  "benchmark name": "caldat",
+  "program name": "flmoon",
+  "function name": "flmoon",
+  "LOC":21,
+  "# Loops":0,
+  "# non-linear arithmetics":26,
+  "changes": 
+  [
+    {
+      "change line": 18,
+      "change type": "Delete", 
+      "change operation": "Condition" 
+    },
+    {
+      "change line": 23,
+      "change type": "Insert", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":10},
+      {"int nph":4}
+  ]
+}

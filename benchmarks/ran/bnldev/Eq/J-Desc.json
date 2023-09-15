@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ran",
+  "program name": "bnldev",
+  "method name": "snippet",
+  "LOC":71,
+  "# Loops":4,
+  "# non-linear arithmetics":16,
+  "changes": 
+  [
+    {
+      "change line": 17,
+      "change type": "Update", 
+      "change operation": "Initial value"
+    },
+    {
+      "change line": 51,
+      "change type": "Delete", 
+      "change operation": "Unused variable"
+    }
+  ]
+}

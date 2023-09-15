@@ -1,0 +1,42 @@
+{
+  "benchmark name": "tcas",
+  "program name": "altseptest",
+  "function name": "snippet",
+  "LOC":49,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 27,
+      "change type": "Delete", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 35,
+      "change type": "Insert",
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 53,
+      "change type": "Update",
+      "change operation": "Comparison operator" 
+    }
+  ],
+  "counter-example":
+  [   {"int Climb_Inhibit":1},
+      {"int Alt_Layer_Value":1},
+      {"int Other_Tracked_Alt":1},
+      {"int Own_Tracked_Alt":1},
+      {"int Two_of_Three_Reports_Valid":1},
+      {"int need_upward_RA":1},
+      {"int need_downward_RA":1},
+      {"int Other_RAC":1},
+      {"int High_Confidence":0},
+      {"int Own_Tracked_Alt_Rate":1},
+      {"int Cur_Vertical_Sep":601},
+      {"int Other_Capability":1},
+      {"int Down_Separation":1},
+      {"int Up_Separation":1}
+  ]
+}

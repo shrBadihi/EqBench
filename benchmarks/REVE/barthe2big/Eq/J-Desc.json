@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "barthe2big",
+  "method name": "f",
+  "LOC":14,
+  "# Loops":2,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Initial value (since i will be added to x at line 12, the final value added to x will be the same in both versions)"
+    }
+  ]
+}

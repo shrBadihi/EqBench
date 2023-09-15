@@ -14,7 +14,7 @@ public class newV{
 
 		if (idum <= 0) {
 			idum=(idum==0 ? 1 : -idum);
-            idum2=idum;
+        idum2=idum;
 			for (j=NTAB+magic;j>=0;j--) {//change
 				k=idum/IQ1;
 				idum=IA1*(idum-k*IQ1)-k*IR1;

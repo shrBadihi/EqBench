@@ -1,0 +1,16 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "surface",
+  "function name": "SurfaceConstructor",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 68,
+      "change type": "Insert", 
+      "change operation": "Dummy statement"  
+    }
+  ]
+}

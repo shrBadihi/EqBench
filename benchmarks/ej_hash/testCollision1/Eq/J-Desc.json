@@ -1,0 +1,16 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "testCollision1",
+  "method name": "testCollision1",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 22,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

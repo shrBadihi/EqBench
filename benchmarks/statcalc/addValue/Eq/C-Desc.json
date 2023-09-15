@@ -1,0 +1,26 @@
+{
+  "benchmark name": "Statcalc",
+  "program name": "addValue",
+  "function name": "addValue",
+  "LOC":8,
+  "# Loops":0,
+  "# non-linear arithmetics":5,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Delete", 
+      "change operation": "Unnecessary variable" 
+    },
+    {
+      "change line": 14,
+      "change type": "Update",
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 15,
+      "change type": "Update",
+      "change operation": "Replace variable" 
+    }
+  ]
+}

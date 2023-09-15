@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ell",
+  "program name": "rc",
+  "method name": "snippet",
+  "LOC":38,
+  "# Loops":1,
+  "# non-linear arithmetics":27,
+  "changes": 
+  [
+    {
+      "change line": 22,
+      "change type": "Insert", 
+      "change operation": "Extract variable"
+    },
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Replace variable"
+    }
+  ]
+}

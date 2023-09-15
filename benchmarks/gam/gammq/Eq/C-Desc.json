@@ -1,0 +1,16 @@
+{
+  "benchmark name": "gam",
+  "program name": "gammq",
+  "function name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "9-11",
+      "change type": "Update", 
+      "change operation": "Split the If" 
+    }
+  ]
+}

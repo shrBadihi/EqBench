@@ -1,0 +1,26 @@
+{
+  "benchmark name": "caldat",
+  "program name": "badluk",
+  "function name": "snippet",
+  "LOC":49,
+  "# Loops":3,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 17,
+      "change type": "Insertion", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 19,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 25,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

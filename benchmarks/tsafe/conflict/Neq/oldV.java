@@ -31,5 +31,5 @@ public class oldV{
       minsep = dmst;
     }
     return minsep;
-  }    
+  }
 }

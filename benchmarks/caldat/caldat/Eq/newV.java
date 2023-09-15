@@ -17,10 +17,10 @@ public class newV {//test three,no connections
 		jd=(int) (365*jc+(0.25*jc));
 		je=(int) ((jb-jd)/30.6001);
 		id=(int) (jb-jd-(30.6001*je));
-        mm=je-1;
+		mm=je-1;
         je = 100;//change
 		if (mm > 12) mm -= 12;
-        iyyy=jc-4715;
+		iyyy=jc-4715;
         jc = 100;//change
 		if (mm > 2) --iyyy;
 		if (iyyy <= 0) --iyyy;

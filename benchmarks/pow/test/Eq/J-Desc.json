@@ -1,0 +1,16 @@
+{
+  "benchmark name": "pow",
+  "program name": "test",
+  "method name": "snippet",
+  "LOC":24,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Update", 
+      "change operation": "Negate the condition"
+    }
+  ]
+}

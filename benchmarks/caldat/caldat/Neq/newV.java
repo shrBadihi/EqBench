@@ -23,5 +23,5 @@ public class newV {//test three,no connections
 		if (mm > 2) --iyyy;
 		if (iyyy <= 0) --iyyy;
 		if (julian < 0) iyyy -= 100*(1-julian/36525);
-    }
+	}
 }

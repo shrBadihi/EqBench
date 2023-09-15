@@ -1,0 +1,26 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "Const.main",
+  "function name": "foo",
+  "LOC":8,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Insert", 
+      "change operation": "Remove a magic number"
+    },
+    {
+      "change line": 3,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

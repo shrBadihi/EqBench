@@ -1,0 +1,32 @@
+{
+  "benchmark name": "ran",
+  "program name": "poidev",
+  "function name": "snippet",
+  "LOC":39,
+  "# Loops":3,
+  "# non-linear arithmetics":13,
+  "changes": 
+  [
+    {
+      "change line": 18,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 30,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 44,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double xm":2.0},
+      {"double idumx":10.0},
+      {"double idum":10.0}
+  ]
+}

@@ -7,7 +7,7 @@ int f(int m, int n) {
     r = f(m - 1, 1);
   } else { 
     if (m == 1) {
-    r = n + 1;
+      r = n + 1;
   } else {
     x = f(m, n - 1);
     r = f(m - 1, x);

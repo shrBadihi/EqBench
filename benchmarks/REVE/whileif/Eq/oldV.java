@@ -7,7 +7,7 @@ public class oldV {
 			x ++;
 			c = c-1;
 		  }
-		} 
+		}
 		return x;
-	}  
+	}
 }

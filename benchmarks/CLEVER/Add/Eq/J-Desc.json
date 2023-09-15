@@ -1,0 +1,16 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "Add.main",
+  "method name": "foo",
+  "LOC":8,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Switch variable"
+    }
+  ]
+}

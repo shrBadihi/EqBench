@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "triangular.triangle",
+  "function name": "f",
+  "LOC":15,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "6,8-9,15",
+      "change type": "Update", 
+      "change operation": "Introduce a new parameter in the private function (the functionality of triangle remains the same)"
+    }
+  ]
+}

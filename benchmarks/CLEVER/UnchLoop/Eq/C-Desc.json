@@ -1,0 +1,21 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "UnchLoop.main",
+  "function name": "foo",
+  "LOC":9,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Update", 
+      "change operation": "Initial value"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Return statement" 
+    }
+  ]
+}

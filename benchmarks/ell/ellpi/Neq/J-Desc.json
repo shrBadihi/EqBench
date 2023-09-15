@@ -1,0 +1,27 @@
+{
+  "benchmark name": "ell",
+  "program name": "elle",
+  "method name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 8,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 11,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double phi":180.0},
+      {"double en":10.0},
+      {"double ak":1.0}
+  ]
+}

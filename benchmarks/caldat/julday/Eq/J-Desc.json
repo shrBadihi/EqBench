@@ -1,0 +1,16 @@
+{
+  "benchmark name": "caldat",
+  "program name": "julday",
+  "method name": "snippet",
+  "LOC":24,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

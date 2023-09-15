@@ -70,7 +70,7 @@ public class newV{
             bnl=em;
         }
         if (p != pp)
-        bnl=n-bnl;
+            bnl=n-bnl;
         return bnl;
     }
     static double gammln(double xx){

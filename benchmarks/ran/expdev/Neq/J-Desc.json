@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ran",
+  "program name": "expdev",
+  "method name": "snippet",
+  "LOC":7,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Insert", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int idumx":100.0},
+      {"int idum":100.0}
+  ]
+}

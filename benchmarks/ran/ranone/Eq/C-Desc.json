@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ran",
+  "program name": "ranone",
+  "function name": "snippet",
+  "LOC":39,
+  "# Loops":1,
+  "# non-linear arithmetics":12,
+  "changes": 
+  [
+    {
+      "change line": 14,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    },
+    {
+      "change line": 34,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 37,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

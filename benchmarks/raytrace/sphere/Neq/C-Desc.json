@@ -1,0 +1,22 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "sphere",
+  "function name": "SphereConstructor",
+  "LOC":6,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 75,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"Surface s":"new Surface(1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0)"},
+      {"Vector3D c":"new Vector3D(10.0,10.0,10.0)"},
+      {"float r":3.0}
+  ]
+}

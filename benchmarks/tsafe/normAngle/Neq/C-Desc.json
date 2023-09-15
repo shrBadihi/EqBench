@@ -1,0 +1,25 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "normAngle",
+  "function name": "snippet",
+  "LOC":9,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes":  
+  [
+    {
+      "change line": 7,
+      "change type": "Update",
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 10,
+      "change type": "Update",
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [   
+      {"double angle":4.0}
+  ]
+}

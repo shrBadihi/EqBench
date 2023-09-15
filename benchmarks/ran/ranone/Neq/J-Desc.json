@@ -1,0 +1,30 @@
+{
+  "benchmark name": "ran",
+  "program name": "ranone",
+  "method name": "snippet",
+  "LOC":39,
+  "# Loops":1,
+  "# non-linear arithmetics":12,
+  "changes": 
+  [
+    {
+      "change line": 35,
+      "change type": "Insert", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 39,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 41,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double idum":101.0}
+  ]
+}

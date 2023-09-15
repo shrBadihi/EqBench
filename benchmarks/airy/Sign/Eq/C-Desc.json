@@ -1,0 +1,16 @@
+{
+  "benchmark name": "airy",
+  "program name": "sign",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "2-13",
+      "change type": "Update", 
+      "change operation": "Consolidate if conditions" 
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "benchmark name": "REVE",
+  "program name": "bug15",
+  "method name": "f",
+  "LOC":9,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": "4-5",
+      "change type": "Update", 
+      "change operation": "Switch line 4 and 5"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Change the loop condition to the equivalent condition"
+    },
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Switch variables"
+    },
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Change to equivalent Arithmetic operation"
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Switch variables"
+    }
+  ]
+}

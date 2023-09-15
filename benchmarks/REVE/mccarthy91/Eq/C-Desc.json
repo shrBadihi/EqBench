@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "mccarthy91",
+  "function name": "f",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4-8",
+      "change type": "Update", 
+      "change operation": "Switch the conditions and rename the input variable"
+    }
+  ]
+}

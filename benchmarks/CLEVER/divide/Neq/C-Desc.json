@@ -1,0 +1,21 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "divide.client",
+  "function name": "lib",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 1,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int c":10},
+      {"int d":2}
+  ]
+}

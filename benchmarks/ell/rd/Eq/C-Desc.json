@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ell",
+  "program name": "rd",
+  "function name": "snippet",
+  "LOC":57,
+  "# Loops":1,
+  "# non-linear arithmetics":29,
+  "changes": 
+  [
+    {
+      "change line": 38,
+      "change type": "Update", 
+      "change operation": "Decompose the condition"
+    },
+    {
+      "change line": "8,76-77",
+      "change type": "Insert", 
+      "change operation": "The extracted method"
+    }
+  ]
+}

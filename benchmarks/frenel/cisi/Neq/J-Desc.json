@@ -1,0 +1,20 @@
+{
+  "benchmark name": "frenel",
+  "program name": "cisi",
+  "method name": "snippet",
+  "LOC":61,
+  "# Loops":2,
+  "# non-linear arithmetics":11,
+  "changes":  
+  [
+    {
+      "change line": 64,
+      "change type": "Insert", 
+      "change operation": "Logical operator"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":0.0}
+  ]
+}

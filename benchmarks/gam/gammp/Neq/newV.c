@@ -8,7 +8,7 @@ double gcf(double a, double x, double gln);
 double snippet (double a, double x, double gamser, double gammcf, double gln) {
     if (x < 0.0 || a <= 0.0)
       return -10;//change
-      if (x < a+1.0) {
+    if (x < a+1.0) {
       gamser = gser(a,x, gln,gamser);
       return gamser+2;//change
     } else {

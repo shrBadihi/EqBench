@@ -1,0 +1,16 @@
+{
+  "benchmark name": "optimization",
+  "program name": "theta",
+  "method name": "theta",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":6,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

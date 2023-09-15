@@ -1,0 +1,21 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "sphere",
+  "function name": "SphereConstructor",
+  "LOC":6,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 75,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 76,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

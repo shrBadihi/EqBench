@@ -1,0 +1,16 @@
+{
+  "benchmark name": "airy",
+  "program name": "beschb",
+  "method name": "beschb",
+  "LOC":9,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 30,
+      "change type": "Insertion", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "benchmark name": "ell",
+  "program name": "brent",
+  "function name": "snippet",
+  "LOC":81,
+  "# Loops":1,
+  "# non-linear arithmetics":28,
+  "changes": 
+  [
+    {
+      "change line": 36,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 40,
+      "change type": "Update", 
+      "change operation": "Logical operator"
+    },
+    {
+      "change line": 80,
+      "change type": "Delete", 
+      "change operation": "Logical clause"
+    }
+  ],
+  "counter-example":
+  [
+      {"double ax":20.0},
+      {"double bx":100.0},
+      {"double cx":50.0},
+      {"double tol":-1.0},
+      {"double bxmin":10.0}
+  ]
+}

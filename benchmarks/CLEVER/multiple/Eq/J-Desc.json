@@ -1,0 +1,16 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "multiple.client",
+  "method name": "lib",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":3,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "The return statement"
+    }
+  ]
+}

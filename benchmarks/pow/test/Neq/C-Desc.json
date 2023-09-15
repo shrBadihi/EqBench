@@ -1,0 +1,26 @@
+{
+  "benchmark name": "pow",
+  "program name": "test",
+  "function name": "snippet",
+  "LOC":24,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes":  
+  [
+    {
+      "change line": 18,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 27,
+      "change type": "Insert", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":2},
+      {"int y":5}
+  ]
+}

@@ -5,7 +5,7 @@ public class newV {
 		while(0 < c) {
 		  if(0 < t) {
 			x ++;
-		    c = c-1;
+			c = c-1;
 		  }
 		}
 		return x;

@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "ei",
+  "method name": "snippet",
+  "LOC":41,
+  "# Loops":2,
+  "# non-linear arithmetics":13,
+  "changes": 
+  [
+    {
+      "change line": 17,
+      "change type": "Insert", 
+      "change operation": "Logical clause"
+    },
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":10.0}
+  ]
+}

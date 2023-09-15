@@ -1,0 +1,31 @@
+{
+  "benchmark name": "bess",
+  "program name": "pythag",
+  "function name": "snippet",
+  "LOC":17,
+  "# Loops":0,
+  "# non-linear arithmetics":8,
+  "changes": 
+  [
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Comparison operator" 
+    },
+    {
+      "change line": 14,
+      "change type": "Update", 
+      "change operation": "Comparison operand" 
+    },
+    {
+      "change line": 17,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":20.0},
+      {"double b":10.0}
+  ]
+}

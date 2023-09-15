@@ -29,7 +29,6 @@ double snippet(double x) {
                 c+=exp(-SQR((2.0*i+1.0)*H));
                 x2=x*x*x;//change
             }
-
         }
         if (fabs(x) < 0.2) {
             x2=x*x;

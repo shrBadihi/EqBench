@@ -1,0 +1,21 @@
+{
+  "benchmark name": "gam",
+  "program name": "betai",
+  "function name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Update", 
+      "change operation": "Decompose condition" 
+    },
+    {
+      "change line": "18-19",
+      "change type": "Insert", 
+      "change operation": "Extract Method" 
+    }
+  ]
+}

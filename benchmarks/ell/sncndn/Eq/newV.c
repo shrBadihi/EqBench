@@ -43,8 +43,7 @@ void snippet(double uu, double emmc) {
                     dn = (en[ii] + a) / (b + a);
                     a = c / b;
                 }
-                double temp = 1.0;//change
-                a = temp / sqrt(c * c + temp);//change
+                a = 1.0 / sqrt(c * c + 1.0);
                 sn = (sn >= 0.0 ? a : -a);
                 cn = c * sn;
             }

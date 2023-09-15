@@ -1,0 +1,26 @@
+{
+  "benchmark name": "bess",
+  "program name": "SIGN",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 5,
+      "change type": "Update", 
+      "change operation": "Consolidate if conditions" 
+    },
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Consolidate if conditions" 
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Consolidate if conditions" 
+    }
+  ]
+}

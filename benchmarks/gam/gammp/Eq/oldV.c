@@ -15,7 +15,7 @@ double snippet (double a, double x, double gamser, double gammcf, double gln) {
       gammcf =gcf(a,x,gln);
       return 1.0-gammcf;
     }
-  }
+}
 double gser(double a, double x, double gln,double gamser){
     int ITMAX=100;
     double EPS=1e-14;

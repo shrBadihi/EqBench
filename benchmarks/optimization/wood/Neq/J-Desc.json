@@ -1,0 +1,23 @@
+{
+  "benchmark name": "optimization",
+  "program name": "wood",
+  "method name": "wood",
+  "LOC":8,
+  "# Loops":0,
+  "# non-linear arithmetics":5,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Comparison operand" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double x1":5.0},
+      {"double x2":25.0},
+      {"double x3":2.0},
+      {"double x4":4.0}
+  ]
+}

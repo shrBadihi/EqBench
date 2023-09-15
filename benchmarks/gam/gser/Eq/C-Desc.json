@@ -1,0 +1,26 @@
+{
+  "benchmark name": "gam",
+  "program name": "gser",
+  "function name": "snippet",
+  "LOC":23,
+  "# Loops":1,
+  "# non-linear arithmetics":7,
+  "changes": 
+  [
+    {
+      "change line": 14,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    },
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 24,
+      "change type": "Update", 
+      "change operation": "Replace variable"  
+    }
+  ]
+}

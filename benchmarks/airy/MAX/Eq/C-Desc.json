@@ -1,0 +1,26 @@
+{
+  "benchmark name": "airy",
+  "program name": "MAX",
+  "function name": "snippet",
+  "LOC":6,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Update", 
+      "change operation": "Switch the condition" 
+    },
+    {
+      "change line": 3,
+      "change type": "Update", 
+      "change operation": "Switch the condition" 
+    },
+    {
+      "change line": 5,
+      "change type": "Update", 
+      "change operation": "Switch the condition" 
+    }
+  ]
+}

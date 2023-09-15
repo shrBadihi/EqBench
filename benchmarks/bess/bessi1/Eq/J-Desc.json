@@ -1,0 +1,16 @@
+{
+  "benchmark name": "bess",
+  "program name": "bessi1",
+  "method name": "snippet",
+  "LOC":20,
+  "# Loops":0,
+  "# non-linear arithmetics":23,
+  "changes": 
+  [
+    {
+      "change line": "14-15",
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    }
+  ]
+}

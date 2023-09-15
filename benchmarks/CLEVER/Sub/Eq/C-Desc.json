@@ -1,0 +1,21 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "oneN2.client",
+  "function name": "foo",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Update", 
+      "change operation": "Switch variable"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Switch calling parameters" 
+    }
+  ]
+}

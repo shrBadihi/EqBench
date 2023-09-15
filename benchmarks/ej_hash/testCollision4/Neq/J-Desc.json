@@ -1,0 +1,22 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "testCollision4",
+  "method name": "testCollision4",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 21,
+      "change type": "update", 
+      "change operation": "Comparison" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x1":3141},
+      {"long y1":6454505372016058754},
+      {"int z1":3141}
+  ]
+}

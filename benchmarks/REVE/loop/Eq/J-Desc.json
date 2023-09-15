@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "loop",
+  "method name": "f",
+  "LOC":9,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4,6-7",
+      "change type": "Update", 
+      "change operation": "Traverse the loop upside down"
+    }
+  ]
+}

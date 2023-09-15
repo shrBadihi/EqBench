@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "whileif",
+  "function name": "f",
+  "LOC":10,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "3-4",
+      "change type": "Update", 
+      "change operation": "Switch while (line 4) and if (line 3)"
+    }
+  ]
+}

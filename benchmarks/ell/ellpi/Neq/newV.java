@@ -109,7 +109,6 @@ public class newV{
     } while (Math.abs(s) > ERRTOL);
     return w*(1.0+s*s*(C1+s*(C2+s*(C3+s*C4))))/Math.sqrt(ave);
   }
-
   private static double rf(double x, double y, double z){
     final double ERRTOL=0.0025, TINY=1.5e-38, BIG=3.0e37, THIRD=1.0/3.0;
     final double C1=1.0/24.0, C2=0.1, C3=3.0/44.0, C4=1.0/14.0;

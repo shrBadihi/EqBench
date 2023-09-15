@@ -1,0 +1,21 @@
+{
+  "benchmark name": "bess",
+  "program name": "bessk1",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":22,
+  "changes": 
+  [
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Replace condition" 
+    },
+    {
+      "change line": 14,
+      "change type": "Update", 
+      "change operation": "Replace condition" 
+    }
+  ]
+}

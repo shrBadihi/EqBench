@@ -1,5 +1,5 @@
 int f(int n) {
-    int result = 1;
+  int result = 1;
     int b = 1;
     int retval = -1;
     while (!(b == 0)) {

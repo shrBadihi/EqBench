@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "digits10",
+  "method name": "f",
+  "LOC":24,
+  "# Loops":1,
+  "# non-linear arithmetics":5,
+  "changes": 
+  [
+    {
+      "change line": "5-25",
+      "change type": "Update", 
+      "change operation": "Rewrite the method with equivalent algorithm"
+    }
+  ]
+}

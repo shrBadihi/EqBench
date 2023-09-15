@@ -1,0 +1,26 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "normAngle",
+  "method name": "snippet",
+  "LOC":9,
+  "# Loops":0,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    }
+  ]
+}

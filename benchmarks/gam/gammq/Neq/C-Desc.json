@@ -1,0 +1,24 @@
+{
+  "benchmark name": "gam",
+  "program name": "gammq",
+  "function name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 16,
+      "change type": "Update",
+      "change operation": "Arithmetic"  
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":2.0},
+      {"double x":3.0},
+      {"double gamser":10.0},
+      {"double gammcf":10.0},
+      {"double gln":10.0}   
+  ]
+}

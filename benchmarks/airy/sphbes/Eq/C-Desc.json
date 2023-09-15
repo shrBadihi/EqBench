@@ -1,0 +1,27 @@
+{
+  "benchmark name": "airy",
+  "program name": "sphbes",
+  "function name": "sphbes",
+  "LOC":14,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 73,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 76,
+      "change type": "Insert",
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 77,
+      "change type": "Update",
+      "change operation": "Simplify the assignment" 
+    }
+
+  ]
+}

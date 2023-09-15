@@ -42,7 +42,7 @@ double snippet (double xm, int idumx,int idum) {//idum is a global var
             } while (ran1(idum) > t && idum<530511967);
         }
         return em;
-    }
+}
 double gammln(double xx){
         int j;
         double x,y,tmp,ser;

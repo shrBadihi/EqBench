@@ -8,8 +8,8 @@ public class newV{
     double ap =0;
     double gln = gammln(a);
     if (x <= 0.0) {
-        x = x + a; //change
-        gamser = 0.0;
+      x = x + a; //change
+      gamser = 0.0;
     } else {
       ap = a;
       del = 1.0 * a;
@@ -23,7 +23,7 @@ public class newV{
         }
       }
     }
-      return gamser;
+    return gamser;
   }
   public static double gammln(double xx)
   {

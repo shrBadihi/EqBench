@@ -10,5 +10,5 @@ public class newV {
 			sum += (double)a[i] / n;
 		}
 		return sum;
-	}	
+	}
 }

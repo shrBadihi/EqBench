@@ -1,0 +1,31 @@
+{
+  "benchmark name": "ran",
+  "program name": "gasdev",
+  "function name": "snippet",
+  "LOC":25,
+  "# Loops":1,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 15,
+      "change type": "Update", 
+      "change operation": "Comparison operand"
+    },
+    {
+      "change line": 21,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double idumx":10.0},
+      {"double idum":10.0}
+  ]
+}

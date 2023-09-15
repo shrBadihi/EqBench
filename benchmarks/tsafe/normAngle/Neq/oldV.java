@@ -4,10 +4,10 @@ public class oldV{
   	double twoPi = Math.PI * 2;
     if (angle < -Math.PI) {
 			return angle + twoPi;
-		}
+	}
 	if (angle > Math.PI) {
 			return angle - twoPi;
 	}
 	return angle;
-  } 
+  }
 }

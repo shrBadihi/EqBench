@@ -29,7 +29,7 @@ public class newV {//test airy include all
 		gam2=chebev_c1d(-1.0,1.0,NUSE2,xx);
 		gampl= gam2-x*gam1;
 		gammi= gam2+x*gam1;
-		
+
 	}
 	private static double chebev_c1d(double a, double b,int m, double x) {
     double d=0.0;

@@ -1,0 +1,26 @@
+{
+  "benchmark name": "gam",
+  "program name": "erfcc",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Initial value" 
+    },
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 9,
+      "change type": "Delete", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "benchmark name": "ell",
+  "program name": "rj",
+  "function name": "snippet",
+  "LOC":89,
+  "# Loops":1,
+  "# non-linear arithmetics":39,
+  "changes": 
+  [
+    {
+      "change line": "64-65",
+      "change type": "Delete", 
+      "change operation": "Combine variables"
+    }
+  ]
+}

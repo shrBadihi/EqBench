@@ -1,0 +1,28 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "testCollision2",
+  "function name": "testCollision2",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 25,
+      "change type": "Insert",
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 26,
+      "change type": "Insert",
+      "change operation": "A new printout statement" 
+    }
+  ],
+  "counter-example":
+  [
+      {"long y1":20},
+      {"int z1":40},
+      {"long y2":20},
+      {"int z2":40}
+  ]
+}

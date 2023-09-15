@@ -1,0 +1,25 @@
+{
+  "benchmark name": "REVE",
+  "program name": "limit1",
+  "method name": "f",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Unroll the recursion"
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Wrong unroll the recursion"
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":10}
+  ]
+}

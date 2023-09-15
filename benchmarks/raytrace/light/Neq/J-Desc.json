@@ -1,0 +1,24 @@
+{
+  "benchmark name": "raytrace",
+  "program name": "light",
+  "method name": "Light",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 51,
+      "change type": "Update", 
+      "change operation": "Comparison operator" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int type":1},
+      {"Vector3D v":"new Vector3D(10.0, 10.0, 10.0)"},
+      {"float r":4.0},
+      {"float g":2.0},
+      {"float b":4.0}
+  ]
+}

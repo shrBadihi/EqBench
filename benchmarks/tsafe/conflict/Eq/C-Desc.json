@@ -1,0 +1,21 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "conflict",
+  "function name": "snippet",
+  "LOC":31,
+  "# Loops":0,
+  "# non-linear arithmetics":34,
+  "changes": 
+  [
+    {
+      "change line": 16,
+      "change type": "Update", 
+      "change operation": "Simplify the equation" 
+    },
+    {
+      "change line": 25,
+      "change type": "Insert", 
+      "change operation": "Dummy statement" 
+    }
+  ]
+}

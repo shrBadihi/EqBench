@@ -6,7 +6,7 @@ public class newV {
 		}
 		return x / y;
 	  }
-	public int client(int c, int d) {
+	  public int client(int c, int d) {
 		if (d == 0) {
 		  return 0;
 		}

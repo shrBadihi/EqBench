@@ -1,0 +1,29 @@
+{
+  "benchmark name": "gam",
+  "program name": "gser",
+  "function name": "snippet",
+  "LOC":23,
+  "# Loops":1,
+  "# non-linear arithmetics":7,
+  "changes": 
+  [
+    {
+      "change line": 14,
+      "change type": "Update",
+      "change operation": "Arithmetic"  
+    },
+    {
+      "change line": 28,
+      "change type": "Update",
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":0.0},
+      {"double x":0.0},
+      {"double gamser":10.0},
+      {"double gammcf":10.0},
+      {"double gln":10.0}   
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "benchmark name": "ran",
+  "program name": "gammln",
+  "function name": "snippet",
+  "LOC":15,
+  "# Loops":1,
+  "# non-linear arithmetics":6,
+  "changes": 
+  [
+    {
+      "change line": 14,
+      "change type": "Delete", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 17,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double xx":10.0}
+  ]
+}

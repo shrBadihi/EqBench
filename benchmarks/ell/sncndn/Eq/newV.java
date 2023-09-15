@@ -1,4 +1,4 @@
-package benchmarks.Ell.sncndn.Eq;
+package benchmarks.ell.sncndn.Eq;
 public class newV{
     public static double sn, cn, dn;
     public static void snippet(double uu, double emmc) {

@@ -1,0 +1,34 @@
+{
+  "benchmark name": "ell",
+  "program name": "dbrent",
+  "method name": "snippet",
+  "LOC":124,
+  "# Loops":1,
+  "# non-linear arithmetics":36,
+  "changes": 
+  [
+    {
+      "change line": 83,
+      "change type": "Update", 
+      "change operation": "Logical operator"
+    },
+    {
+      "change line": 89,
+      "change type": "Insert", 
+      "change operation": "Logical clause"
+    },
+    {
+      "change line": 91,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double ax":20.0},
+      {"double bx":10.0},
+      {"double cx":20.0},
+      {"double tol":-1.0},
+      {"double bxmin":10.0}
+  ]
+}

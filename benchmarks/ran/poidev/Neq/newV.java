@@ -15,7 +15,7 @@ public class newV{
                 oldm=(2*xm);//change
                 g=Math.exp(-xm);
             }
-            em = -1; 
+            em = -1;
             t=1.0;
             do {
                 ++em;

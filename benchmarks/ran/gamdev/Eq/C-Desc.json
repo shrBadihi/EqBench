@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ran",
+  "program name": "gamdev",
+  "function name": "snippet",
+  "LOC":31,
+  "# Loops":3,
+  "# non-linear arithmetics":9,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Update", 
+      "change operation": "Negate the condition" 
+    },
+    {
+      "change line": 32,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

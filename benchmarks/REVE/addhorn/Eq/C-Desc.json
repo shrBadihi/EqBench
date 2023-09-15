@@ -1,0 +1,21 @@
+{
+  "benchmark name": "REVE",
+  "program name": "addhorn",
+  "function name": "f",
+  "LOC":12,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 8,
+      "change type": "Insert", 
+      "change operation": "Add a new Unnecessary condition"
+    },
+    {
+      "change line": 9,
+      "change type": "Insert", 
+      "change operation": "Add a new assignment"
+    }
+  ]
+}

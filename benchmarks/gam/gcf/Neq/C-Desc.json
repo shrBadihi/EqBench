@@ -1,0 +1,27 @@
+{
+  "benchmark name": "gam",
+  "program name": "gcf",
+  "function name": "gcf",
+  "LOC":31,
+  "# Loops":1,
+  "# non-linear arithmetics":17,
+  "changes": 
+  [
+    {
+      "change line": 25,
+      "change type": "Update",
+      "change operation": "Comparison operator"  
+    },
+    {
+      "change line": 32,
+      "change type": "Insert",
+      "change operation": "Arithmetic"  
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":5.0},
+      {"double x":10.0},
+      {"double gln":10.0}   
+  ]
+}

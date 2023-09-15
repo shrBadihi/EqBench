@@ -11,7 +11,7 @@ public class newV{
         double AM=1.0/IM;
         double RNMX=(1.0-EPS);
         int iy=0;
-        int iv0 = 0; 
+        int iv0 = 0;
         int j = 0;
         int k = 0;
         double temp = 0.0;

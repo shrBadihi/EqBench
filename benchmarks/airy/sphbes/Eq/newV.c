@@ -71,8 +71,8 @@ void sphbes(int n,double x){
     }
     order = n+0.5;
 	factor=1.253314137315500251/sqrt(x);//change
-	sj=factor*rj;
-	sy=factor*ry;
+    sj=factor*rj;
+    sy=factor*ry;
 	double temp = 2.0*x;//change
 	sjp=factor*rjp-sj/(temp);//change
     syp = factor*ryp-sy/(2.0*x);

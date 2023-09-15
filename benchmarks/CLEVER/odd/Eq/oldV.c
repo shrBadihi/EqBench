@@ -8,7 +8,7 @@ int lib(int x) {
 }
 int client(int x){
 	if (lib(x)==0){
-		return 1;
+	    return 1;
 	}else{
 		return 0;
 	}

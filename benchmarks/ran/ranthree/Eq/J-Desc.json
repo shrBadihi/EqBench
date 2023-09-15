@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ran",
+  "program name": "ranthree",
+  "method name": "snippet",
+  "LOC":39,
+  "# Loops":3,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 8,
+      "change type": "Insertion", 
+      "change operation": "Remove magic number" 
+    },
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "update with variable" 
+    },
+    {
+      "change line": 33,
+      "change type": "Update", 
+      "change operation": "update with variable" 
+    }
+  ]
+}

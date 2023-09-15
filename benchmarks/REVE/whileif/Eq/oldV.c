@@ -3,8 +3,8 @@ int f(int t, int c) {
   if(0 < t) {
     while(0 < c) {
       x ++;
-      c = c -1;
+      c = c - 1;
     }
-  } 
+  }
   return x;
 }

@@ -1,0 +1,20 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "factorial.factorial",
+  "function name": "lib",
+  "LOC":19,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": "2-11",
+      "change type": "Update", 
+      "change operation": "Wrong implementation of recursion" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":4}
+  ]
+}

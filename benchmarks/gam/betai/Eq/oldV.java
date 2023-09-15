@@ -1,4 +1,3 @@
-
 package benchmarks.gam.betai.Eq;
 public class oldV {
   public static double snippet(double a, double b, double x) {

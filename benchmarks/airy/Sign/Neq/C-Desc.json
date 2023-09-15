@@ -1,0 +1,32 @@
+{
+  "benchmark name": "airy",
+  "program name": "sign",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 3,
+      "change type": "Insert",
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 7,
+      "change type": "Update",
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 10,
+      "change type": "Insert",
+      "change operation": "Logical clause" 
+    }
+
+  ],
+  "counter-example":
+  [
+      {"double a":10.0},
+      {"double b":10.0}
+  ]
+}

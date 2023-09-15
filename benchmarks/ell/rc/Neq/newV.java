@@ -42,6 +42,7 @@ public class newV{
   public static double SQR(double a) {
     return a*a;
   }
+
   public static double SIGN(double a, double b){
     return b >= 0 ? (a >= 0 ? a : -a) : (a >= 0 ? -a : a);
   }

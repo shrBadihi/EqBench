@@ -1,0 +1,21 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "ltfive.client",
+  "method name": "lib",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 4,
+      "change type": "Update", 
+      "change operation": "The condition"
+    },
+    {
+      "change line": 5,
+      "change type": "Update", 
+      "change operation": "The return variable"
+    }
+  ]
+}

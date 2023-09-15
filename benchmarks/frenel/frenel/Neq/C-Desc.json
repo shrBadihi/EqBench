@@ -1,0 +1,30 @@
+{
+  "benchmark name": "frenel",
+  "program name": "frenel",
+  "function name": "snippet",
+  "LOC":67,
+  "# Loops":2,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 69,
+      "change type": "Insert", 
+      "change operation": "Logical operator"
+    },
+    {
+      "change line": 91,
+      "change type": "Delete", 
+      "change operation": "Logical operator"
+    },
+    {
+      "change line": 120,
+      "change type": "Delete", 
+      "change operation": "Logical operator"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":-5.0}
+  ]
+}

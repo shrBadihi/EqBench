@@ -8,12 +8,12 @@ public class oldV{
 		final double EPS=3.0e-16,RNMX=1.0-EPS,AM=1.0/(double)(IM1);
 		int idum2=123456789,iy=0;
 		int[] iv = new int[NTAB];
-		int j,k;
+        int j,k;
 		double temp;
 
 		if (idum <= 0) {
 			idum=(idum==0 ? 1 : -idum);
-			idum2=idum;
+        idum2=idum;
 			for (j=NTAB+7;j>=0;j--) {
 				k=idum/IQ1;
 				idum=IA1*(idum-k*IQ1)-k*IR1;

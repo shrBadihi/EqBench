@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ell",
+  "program name": "brent",
+  "function name": "snippet",
+  "LOC":81,
+  "# Loops":1,
+  "# non-linear arithmetics":28,
+  "changes": 
+  [
+    {
+      "change line": 41,
+      "change type": "Delete", 
+      "change operation": "Unused variable" 
+    },
+    {
+      "change line": 62,
+      "change type": "Update", 
+      "change operation": "Replace variable with value" 
+    },
+    {
+      "change line": 88,
+      "change type": "Delete", 
+      "change operation": "Unused variable" 
+    }
+  ]
+}

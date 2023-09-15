@@ -1,0 +1,30 @@
+{
+  "benchmark name": "bess",
+  "program name": "probks",
+  "method name": "snippet",
+  "LOC":19,
+  "# Loops":1,
+  "# non-linear arithmetics":7,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 20,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":10.0}
+  ]
+}

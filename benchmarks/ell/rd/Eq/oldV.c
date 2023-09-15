@@ -74,4 +74,4 @@ double MAX(double a, double b){
   }
 double MIN(double a, double b){
     return b < a ? (b) : (a);
-  }
+}

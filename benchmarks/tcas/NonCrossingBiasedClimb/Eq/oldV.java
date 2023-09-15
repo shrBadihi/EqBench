@@ -34,7 +34,6 @@ public class oldV{
 		}
 		return result;
 	}
-
 	public static int Own_Below_Threat(int  Climb_Inhibit, int Alt_Layer_Value, int Other_Tracked_Alt, int Own_Tracked_Alt, int Two_of_Three_Reports_Valid, int need_upward_RA, int need_downward_RA, int Other_RAC,int High_Confidence, int  Own_Tracked_Alt_Rate, int Cur_Vertical_Sep, int Other_Capability , int Down_Separation, int Up_Separation){
 		int OLEV = 600; /* in feets/minute */
 		int MAXALTDIFF = 600; /* max altitude difference in feet */

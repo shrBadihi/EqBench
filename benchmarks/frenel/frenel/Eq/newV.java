@@ -1,7 +1,7 @@
 package benchmarks.frenel.frenel.Eq;
 public class newV {
-  private static complex cs;
-  public static void snippet(double x){
+	private static complex cs;
+	public static void snippet(double x){
 		final int MAXIT=100;
 		final double EPS=1e-14;
 		final double FPMIN=Double.MIN_VALUE;
@@ -25,7 +25,7 @@ public class newV {
 			n=3;
 			for (k=1;k<=MAXIT;k++) {
 				term *= fact/k;
-        		sum += sign*term/n;
+				sum += sign*term/n;
         		n += 2;//change
 				test=Math.abs(sum)*EPS;
 				if (odd) {
@@ -61,8 +61,8 @@ public class newV {
 				if (Math.abs(del.getreal()-1.0)+Math.abs(del.getimag()) <= EPS) break;
 			}
 			if (k > MAXIT) System.out.println("cf failed in frenel");
-      h = h.multiply(new complex(ax,-ax));
-      complex temp = new complex(Math.cos(0.5*pix2),Math.sin(0.5*pix2)).multiply(h);//change
+			h = h.multiply(new complex(ax,-ax));
+      		complex temp = new complex(Math.cos(0.5*pix2),Math.sin(0.5*pix2)).multiply(h);//change
 			cs=new complex(0.5,0.5).multiply((new complex(1.0,0.0).minus(temp)));
 		}
 		if (x < 0.0) {
@@ -70,7 +70,7 @@ public class newV {
 		}
 		return;
   }
-	public static void cisi(double x){
+  	public static void cisi(double x){
 		final int MAXIT=100;
 		final double EULER=0.577215664901533, PIBY2=1.570796326794897, TMIN=2.0;
 		final double EPS=1e-14;
@@ -131,53 +131,53 @@ public class newV {
 			cs=new complex(sumc+Math.log(t)+EULER,sums);
 		}
 		if (x < 0.0) cs = new complex(cs.getreal(),-cs.getimag());
-  }
+	}
 }
-  class complex{
-    private double real;
-    private double imag;
-    
-    public double getreal(){
-      return real;
-    }
-    
-    public double getimag(){
-      return imag;
-    }
-    
-    public complex(double r,double i){
-      r = real;
-      i = imag;
-    }
-    
-    public complex(){
-      real = 0.0;
-      imag = 0.0;
-    }
-    
-    public void assign(double r){
-      real = r;
-      imag = 0;
-    }
-    public void assign(complex c){
-      real = c.real;
-      imag = c.imag;
-    }
-    
-    public complex plus(complex c){
-      return new complex(real+c.real,imag+c.imag);
-    }
-    
-    public complex minus(complex c){
-      return new complex(real-c.real,imag-c.imag);
-    }
-    
-    public complex multiply(complex c){
-      return new complex(real*c.real-imag*c.imag,real*c.imag+imag*c.real);
-    }
-    
-    public complex divide(complex c){
-      double d = Math.sqrt(c.real * c.real) + Math.sqrt(c.imag * c.imag);
-      return new complex((real * c.real + imag * c.imag) / d, Math.round((real * c.imag - imag * c.real) / d));
-    }
+class complex{
+	private double real;
+	private double imag;
+	
+	public double getreal(){
+		return real;
+	}
+	
+	public double getimag(){
+		return imag;
+	}
+	
+	public complex(double r,double i){
+		r = real;
+		i = imag;
+	}
+	
+	public complex(){
+		real = 0.0;
+		imag = 0.0;
+	}
+	
+	public void assign(double r){
+		real = r;
+		imag = 0;
+	}
+	public void assign(complex c){
+		real = c.real;
+		imag = c.imag;
+	}
+	
+	public complex plus(complex c){
+		return new complex(real+c.real,imag+c.imag);
+	}
+	
+	public complex minus(complex c){
+		return new complex(real-c.real,imag-c.imag);
+	}
+	
+	public complex multiply(complex c){
+		return new complex(real*c.real-imag*c.imag,real*c.imag+imag*c.real);
+	}
+	
+	public complex divide(complex c){
+		double d = Math.sqrt(c.real * c.real) + Math.sqrt(c.imag * c.imag);
+		return new complex((real * c.real + imag * c.imag) / d, Math.round((real * c.imag - imag * c.real) / d));
+	}
 }

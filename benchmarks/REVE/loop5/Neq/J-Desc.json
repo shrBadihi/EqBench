@@ -1,0 +1,35 @@
+{
+  "benchmark name": "REVE",
+  "program name": "loop5",
+  "method name": "f",
+  "LOC":11,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 8,
+      "change type": "Update", 
+      "change operation": "Comparison operand"
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":10}
+  ]
+}

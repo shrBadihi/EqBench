@@ -1,0 +1,26 @@
+{
+  "benchmark name": "optimization",
+  "program name": "wood",
+  "function name": "wood",
+  "LOC":8,
+  "# Loops":0,
+  "# non-linear arithmetics":5,
+  "changes": 
+  [
+    {
+      "change line": 5,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 6,
+      "change type": "Insert",
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 7,
+      "change type": "Update",
+      "change operation": "Simplify the if condition" 
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "benchmark name": "bess",
+  "program name": "dawson",
+  "method name": "snippet",
+  "LOC":44,
+  "# Loops":2,
+  "# non-linear arithmetics":28,
+  "changes": 
+  [
+    {
+      "change line": 29,
+      "change type": "Insert", 
+      "change operation": "Logical"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":8.0}
+  ]
+}

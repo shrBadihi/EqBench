@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "barthe2",
+  "method name": "f",
+  "LOC":10,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "4,6-8",
+      "change type": "Update", 
+      "change operation": "Rename variable"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "benchmark name": "REVE",
+  "program name": "inlining",
+  "function name": "f",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "2-4",
+      "change type": "Update", 
+      "change operation": "Combine two recursions in one"
+    },
+    {
+      "change line": 6,
+      "change type": "Update", 
+      "change operation": "Comparison operand" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":10}
+  ]
+}

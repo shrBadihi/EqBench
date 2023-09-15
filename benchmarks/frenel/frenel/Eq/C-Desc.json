@@ -1,0 +1,31 @@
+{
+  "benchmark name": "frenel",
+  "program name": "frenel",
+  "function name": "snippet",
+  "LOC":67,
+  "# Loops":2,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 82,
+      "change type": "Insert", 
+      "change operation": "Move from line 40"
+    },
+    {
+      "change line": 93,
+      "change type": "Delete", 
+      "change operation": "Move to line 29" 
+    },
+    {
+      "change line": 118,
+      "change type": "Insert", 
+      "change operation": "Extract Variable" 
+    },
+    {
+      "change line": 119,
+      "change type": "Update", 
+      "change operation": "Extract Variable" 
+    }
+  ]
+}

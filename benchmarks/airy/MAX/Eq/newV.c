@@ -3,4 +3,4 @@ double snippet(double a, double b) {
             return a;//change
         else
             return b;//change
-    }
+}

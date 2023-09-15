@@ -19,7 +19,7 @@ void flmoon( int n,  int nph)
 			xtra += (0.1734-3.93e-4*t)*sin(RAD*as)-0.4068*sin(RAD*am);
 		else if (nph == 1 || nph == 3)
 			xtra += (0.1721-4.0e-4*t)*sin(RAD*as)-0.6280*sin(RAD*am);
-        else 
+		else 
             xtra = 0.0;
 		i=(int) (xtra >= 0.0 ? floor(xtra) : ceil(xtra-1.0));
 		jd += i;

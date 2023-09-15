@@ -1,0 +1,21 @@
+{
+  "benchmark name": "gam",
+  "program name": "gammp",
+  "method name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "7-8",
+      "change type": "Delete", 
+      "change operation": "Combine to line 7" 
+    },
+    {
+      "change line": "10-11",
+      "change type": "Delete", 
+      "change operation": "Combine to line 9" 
+    }
+  ]
+}

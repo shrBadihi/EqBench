@@ -1,0 +1,31 @@
+{
+  "benchmark name": "ell",
+  "program name": "zbrent",
+  "method name": "snippet",
+  "LOC":76,
+  "# Loops":1,
+  "# non-linear arithmetics":31,
+  "changes": 
+  [
+    {
+      "change line": 52,
+      "change type": "Insert", 
+      "change operation": "Magic number" 
+    },
+    {
+      "change line": 53,
+      "change type": "Update", 
+      "change operation": "Magic number" 
+    },
+    {
+      "change line": 75,
+      "change type": "Delete", 
+      "change operation": "Variable" 
+    },
+    {
+      "change line": 76,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "benchmark name": "airy",
+  "program name": "beschb",
+  "method name": "beschb",
+  "LOC":9,
+  "# Loops":0,
+  "# non-linear arithmetics":4,
+  "changes": 
+  [
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 27,
+      "change type": "Delete",
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 31,
+      "change type": "Insert",
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":10.0}
+  ]
+}

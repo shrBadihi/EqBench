@@ -49,7 +49,7 @@ public class newV{
         return x;
       }
     }
-     else if( xexp <= (IEEE_BIAS - IEEE_MANT - 2) ){
+    else if( xexp <= (IEEE_BIAS - IEEE_MANT - 2) ){
       return x;
     }else if( xexp <= (IEEE_BIAS - IEEE_MANT/4) ){
       return x*(1.0-x*x*1.0/6.0);
@@ -142,7 +142,7 @@ public class newV{
     if (sign == 1 || sign == 0 )//change
     x = -x;
 
-    return x; 
+    return x;
 
   }
   public static long helperdoubleToRawBits(double xm) {

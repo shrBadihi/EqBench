@@ -21,6 +21,6 @@ void testCollision2(long y1, int z1,long y2, int z2) {
 	    ejhash o1 = constructor(1, y1, z1);
 	    ejhash o2 = constructor(2, y2, z2);
 	    if (hashCode(o1) == hashCode(o2)) {
-	        printf("%s\n","Solved hash collision 2");
+			printf("%s\n","Solved hash collision 2");
 	    }
 }

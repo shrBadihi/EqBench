@@ -1,0 +1,21 @@
+{
+  "benchmark name": "tcas",
+  "program name": "NonCrossingBiasedClimb",
+  "function name": "snippet",
+  "LOC":33,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 36,
+      "change type": "Update", 
+      "change operation": "Decompose If" 
+    },
+    {
+      "change line": "43-45",
+      "change type": "Insert", 
+      "change operation": "Extracted Method" 
+    }
+  ]
+}

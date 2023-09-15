@@ -47,7 +47,7 @@ public class oldV{
         etemp=e;
         e=d;
         if (Math.abs(p) >= Math.abs(0.5*q*etemp) || p <= q*(a-x) || p >= q*(b-x))
-            d=CGOLD*e;
+          d=CGOLD*e;
         else {
           d=p/q;
           u=x+d;

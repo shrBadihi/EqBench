@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "erfcc",
+  "function name": "snippet",
+  "LOC":13,
+  "# Loops":0,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 11,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 14,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":0.0}
+  ]
+}

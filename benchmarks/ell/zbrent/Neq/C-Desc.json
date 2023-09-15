@@ -1,0 +1,27 @@
+{
+  "benchmark name": "ell",
+  "program name": "zbrent",
+  "function name": "snippet",
+  "LOC":76,
+  "# Loops":1,
+  "# non-linear arithmetics":31,
+  "changes": 
+  [
+    {
+      "change line": 46,
+      "change type": "Delete", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 81,
+      "change type": "Insert", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x1":100.0},
+      {"double x2":100.0},
+      {"double tol":100.0}
+  ]
+}

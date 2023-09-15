@@ -1,0 +1,21 @@
+{
+  "benchmark name": "ran",
+  "program name": "rantwo",
+  "method name": "snippet",
+  "LOC":35,
+  "# Loops":1,
+  "# non-linear arithmetics":15,
+  "changes": 
+  [
+    {
+      "change line": 12,
+      "change type": "Insertion", 
+      "change operation": "Remove magic number" 
+    },
+    {
+      "change line": 17,
+      "change type": "Update", 
+      "change operation": "update with variable" 
+    }
+  ]
+}

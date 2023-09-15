@@ -1,0 +1,16 @@
+{
+  "benchmark name": "ran",
+  "program name": "expdev",
+  "method name": "snippet",
+  "LOC":7,
+  "# Loops":1,
+  "# non-linear arithmetics":1,
+  "changes": 
+  [
+    {
+      "change line": "5-9",
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    }
+  ]
+}

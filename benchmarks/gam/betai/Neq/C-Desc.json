@@ -1,0 +1,22 @@
+{
+  "benchmark name": "gam",
+  "program name": "betai",
+  "function name": "snippet",
+  "LOC":10,
+  "# Loops":0,
+  "# non-linear arithmetics":10,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Logical operator"
+    }
+  ],
+  "counter-example":
+  [
+      {"double a":1.0},
+      {"double b":1.0},
+      {"double x":2.0}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "benchmark name": "gam",
+  "program name": "gcf",
+  "method name": "snippet",
+  "LOC":31,
+  "# Loops":1,
+  "# non-linear arithmetics":17,
+  "changes": 
+  [
+    {
+      "change line": 21,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

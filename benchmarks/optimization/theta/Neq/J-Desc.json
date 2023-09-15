@@ -1,0 +1,21 @@
+{
+  "benchmark name": "optimization",
+  "program name": "theta",
+  "method name": "theta",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":6,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"double x1":-90.0},
+      {"double x2":90.0}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ell",
+  "program name": "dbrent",
+  "function name": "snippet",
+  "LOC":124,
+  "# Loops":1,
+  "# non-linear arithmetics":36,
+  "changes": 
+  [
+    {
+      "change line": 49,
+      "change type": "Insert", 
+      "change operation": "Extract variable" 
+    },
+    {
+      "change line": 51,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 53,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

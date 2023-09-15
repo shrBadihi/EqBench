@@ -13,7 +13,6 @@ double betacf(double a, double b, double x);
     else
       return 1.0 - bt * betacf(b, a, 1.0 - x) / b;
   }
-
 double betacf(double a, double b, double x) {
     const int MAXIT = 2;
     const double EPS = 1e-14;

@@ -1,0 +1,16 @@
+{
+  "benchmark name": "ell",
+  "program name": "sncndn",
+  "method name": "snippet",
+  "LOC":55,
+  "# Loops":2,
+  "# non-linear arithmetics":24,
+  "changes": 
+  [
+    {
+      "change line": 58,
+      "change type": "Insert", 
+      "change operation": "Dead code" 
+    }
+  ]
+}

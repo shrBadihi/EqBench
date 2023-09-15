@@ -1,0 +1,25 @@
+{
+  "benchmark name": "gam",
+  "program name": "factrl",
+  "function name": "factrl",
+  "LOC":12,
+  "# Loops":1,
+  "# non-linear arithmetics":2,
+  "changes": 
+  [
+    {
+      "change line": 12,
+      "change type": "Update",
+      "change operation": "Comparison operand"  
+    },
+    {
+      "change line": 16,
+      "change type": "Update",
+      "change operation": "Arithmetic" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":3}
+  ]
+}

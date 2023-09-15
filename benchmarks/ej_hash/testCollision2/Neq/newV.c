@@ -25,5 +25,5 @@ void testCollision2(long y1, int z1,long y2, int z2) {
 	    }
 		else{//change
 			printf("%s\n","Not equal");//change
-		}
+	}
 }

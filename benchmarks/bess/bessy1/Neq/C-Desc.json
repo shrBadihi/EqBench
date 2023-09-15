@@ -1,0 +1,25 @@
+{
+  "benchmark name": "bess",
+  "program name": "bessy1",
+  "function name": "snippet",
+  "LOC":20,
+  "# Loops":0,
+  "# non-linear arithmetics":31,
+  "changes":  
+  [
+    {
+      "change line": 12,
+      "change type": "Update", 
+      "change operation": "Comparison operator"
+    },
+    {
+      "change line": 24,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"double x":8.0}
+  ]
+}

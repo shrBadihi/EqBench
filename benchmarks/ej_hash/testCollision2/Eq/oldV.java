@@ -19,7 +19,7 @@ public class oldV{
 		oldV o1 = new oldV(1, y1, z1);
 		oldV o2 = new oldV(2, y2, z2);
 		if (o1.hashCode() == o2.hashCode()) {
-	    	System.out.println("Solved hash collision 2");
+			System.out.println("Solved hash collision 2");
 		}
-    }
+	}
 }

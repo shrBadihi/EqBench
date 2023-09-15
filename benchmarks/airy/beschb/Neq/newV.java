@@ -32,20 +32,20 @@ public class newV {//test airy include all
 		
 	}
 	private static double chebev_c1d(double a, double b,int m, double x) {
-		double d=0.0;
-		double dd=0.0;
-		double sv,y,y2;
-			int j;
-			if ((x-a)*(x-b) > 0.0)
-				System.out.println("x not in range in routine chebev");
-			y2=2.0*(y=(2.0*x-a-b)/(b-a));
-			for (j=m-1;j>0;j--) {
-				sv=d;
-				d=y2*d-dd+c1_d[j];
-				dd=sv;
-			}
-			return y*d-dd+0.5*c1_d[0];
+    double d=0.0;
+    double dd=0.0;
+    double sv,y,y2;
+		int j;
+		if ((x-a)*(x-b) > 0.0)
+			System.out.println("x not in range in routine chebev");
+		y2=2.0*(y=(2.0*x-a-b)/(b-a));
+		for (j=m-1;j>0;j--) {
+			sv=d;
+			d=y2*d-dd+c1_d[j];
+			dd=sv;
 		}
+		return y*d-dd+0.5*c1_d[0];
+	}
 	public static double MAX(double a, double b){
     if (b > a)
       return b;

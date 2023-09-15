@@ -1,0 +1,20 @@
+{
+  "benchmark name": "gam",
+  "program name": "factln",
+  "method name": "factln",
+  "LOC":9,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Delete",
+      "change operation": "Condition" 
+    }
+  ],
+  "counter-example":
+  [
+      {"int n":-1}
+  ]
+}

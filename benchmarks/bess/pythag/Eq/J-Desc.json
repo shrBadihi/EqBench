@@ -1,0 +1,16 @@
+{
+  "benchmark name": "bess",
+  "program name": "pythag",
+  "method name": "snippet",
+  "LOC":17,
+  "# Loops":0,
+  "# non-linear arithmetics":8,
+  "changes": 
+  [
+    {
+      "change line": "12-13,15",
+      "change type": "Update", 
+      "change operation": "Switch If/Else" 
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "benchmark name": "CLEVER",
+  "program name": "multiple.client",
+  "function name": "iib",
+  "LOC":11,
+  "# Loops":0,
+  "# non-linear arithmetics":3,
+  "changes": 
+  [
+    {
+      "change line": 2,
+      "change type": "Update", 
+      "change operation": "The return statement"
+    }
+  ]
+}

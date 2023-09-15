@@ -24,7 +24,6 @@ public class oldV {
             for (i=0;i<NMAX;i++){
                 c+=Math.exp(-SQR((2.0*i+1.0)*H));
             }
-
         }
         if (Math.abs(x) < 0.2) {
             x2=x*x;

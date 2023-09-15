@@ -1,0 +1,36 @@
+{
+  "benchmark name": "REVE",
+  "program name": "nestedwhile",
+  "function name": "f",
+  "LOC":14,
+  "# Loops":2,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 7,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 9,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 10,
+      "change type": "Delete", 
+      "change operation": "Arithmetic"
+    },
+    {
+      "change line": 11,
+      "change type": "Update", 
+      "change operation": "Arithmetic"
+    }
+  ],
+  "counter-example":
+  [
+      {"int x":10},
+      {"int g":10}
+  ]
+}

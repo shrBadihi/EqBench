@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ej_hash",
+  "program name": "testCollision3",
+  "method name": "testCollision3",
+  "LOC":7,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 19,
+      "change type": "Update", 
+      "change operation": "Arithmetic" 
+    },
+    {
+      "change line": 22,
+      "change type": "Update", 
+      "change operation": "The printout" 
+    }
+  ],
+  "counter-example":
+  [
+      {"long y1":20},
+      {"long y2":20}
+  ]
+}

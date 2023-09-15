@@ -1,0 +1,26 @@
+{
+  "benchmark name": "ell",
+  "program name": "sncndn",
+  "method name": "snippet",
+  "LOC":55,
+  "# Loops":2,
+  "# non-linear arithmetics":24,
+  "changes": 
+  [
+    {
+      "change line": 13,
+      "change type": "Insert", 
+      "change operation": "Logical clause" 
+    },
+    {
+      "change line": 15,
+      "change type": "Delete", 
+      "change operation": "Comparison"
+    }
+  ],
+  "counter-example":
+  [
+      {"double uu":10.0},
+      {"double emmc":100.0}
+  ]
+}

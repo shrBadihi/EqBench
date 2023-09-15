@@ -159,7 +159,7 @@ void frenel(double x){
 					sumc=sum;
 					sum=sums;
 				}
-				if (term < test) break;
+			if (term < test) break;
 				odd=!odd;
 				n += 2;
 			}

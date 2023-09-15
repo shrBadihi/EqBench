@@ -16,5 +16,5 @@ public class newV {
 		   i++;
 		}
 		return x;
-	}	
+	}
 }

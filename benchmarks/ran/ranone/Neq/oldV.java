@@ -26,7 +26,7 @@ public class oldV{
                 if (idum < 0)
                     idum += IM;
                 if (j < NTAB)
-                iv0 = idum;
+                    iv0 = idum;
             }
             iy=iv0;
         }

@@ -11,9 +11,11 @@ double snippet (double a, double x, double gamser, double gammcf, double gln) {
     if (a <= 0.0)//change
       return -1000;
     if (x < a+1.0) {
-      return gser(a,x, gln,gamser);//change
+      gamser =gser(a,x,gln, gamser);
+      return 1.0-gamser;
     } else {
-      return 1.0-gcf(a,x,gln);//change
+      gammcf = gcf(a,x, gln);
+      return gammcf;
     }
 }
 double gser(double a, double x, double gln,double gamser){

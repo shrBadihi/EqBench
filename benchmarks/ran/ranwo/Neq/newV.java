@@ -25,7 +25,7 @@ public class newV{
 		k=idum/IQ1;
 		idum=IA1*(idum-k*IQ1)-k*IR1;
 		if (idum < 0 || idum == 0) idum += IM1;//change
-        idum *= IMM1;//change
+        	idum *= IMM1;//change
 		k=idum2/IQ2;
 		idum2=IA2*(idum2-k*IQ2)-k*IR2;
 		if (idum2 < 0) idum2 += IM2;

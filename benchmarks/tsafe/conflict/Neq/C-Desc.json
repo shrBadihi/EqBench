@@ -1,0 +1,28 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "conflict",
+  "function name": "snippet",
+  "LOC":31,
+  "# Loops":0,
+  "# non-linear arithmetics":34,
+  "changes": 
+  [
+    {
+      "change line": 25,
+      "change type": "Insert",
+      "change operation": "Logical clause"
+    }
+  ],
+  "counter-example":
+  [   
+      {"double psi1":1.0},
+      {"double vA":1.0},
+      {"double vC":4.0},
+      {"double xC0":1.0},
+      {"double yC0":1.0},
+      {"double psiC":1.0},
+      {"double bank_ang":1.0},
+      {"double degToRad":1.0},
+      {"double g":5.0}
+  ]
+}

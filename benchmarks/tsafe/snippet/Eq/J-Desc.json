@@ -1,0 +1,26 @@
+{
+  "benchmark name": "tsafe",
+  "program name": "snippet",
+  "method name": "snippet",
+  "LOC":25,
+  "# Loops":0,
+  "# non-linear arithmetics":17,
+  "changes": 
+  [
+    {
+      "change line": 10,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 19,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    },
+    {
+      "change line": 23,
+      "change type": "Update", 
+      "change operation": "Replace variable" 
+    }
+  ]
+}

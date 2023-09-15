@@ -1,0 +1,31 @@
+{
+  "benchmark name": "tcas",
+  "program name": "altseptest",
+  "function name": "snippet",
+  "LOC":49,
+  "# Loops":0,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": 35,
+      "change type": "Update", 
+      "change operation": "Decompose Condition" 
+    },
+    {
+      "change line": 49,
+      "change type": "Update", 
+      "change operation": "Decompose Condition" 
+    },
+    {
+      "change line": "62-64",
+      "change type": "Insert", 
+      "change operation": "Extract Method" 
+    },
+    {
+      "change line": "65-67",
+      "change type": "Update", 
+      "change operation": "Extract Method"
+    }
+  ]
+}

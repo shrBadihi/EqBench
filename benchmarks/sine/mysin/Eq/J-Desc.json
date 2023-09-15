@@ -1,0 +1,26 @@
+{
+  "benchmark name": "sine",
+  "program name": "mysin",
+  "method name": "snippet",
+  "LOC":144,
+  "# Loops":0,
+  "# non-linear arithmetics":47,
+  "changes": 
+  [
+    {
+      "change line": 15,
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    },
+    {
+      "change line": 73,
+      "change type": "Update", 
+      "change operation": "Rename variable" 
+    },
+    {
+      "change line": 135,
+      "change type": "Insert", 
+      "change operation": "Unreachable code" 
+    }
+  ]
+}
