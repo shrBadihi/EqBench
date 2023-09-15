@@ -8,17 +8,17 @@
   "changes": 
   [
     {
-      "change line": 24,
+      "change line": 28,
       "change type": "Update", 
       "change operation": "Decompose Condition" 
     },
     {
-      "change line": 28,
+      "change line": 32,
       "change type": "Insert", 
       "change operation": "New method" 
     },
     {
-      "change line": 29,
+      "change line": 33,
       "change type": "Insert", 
       "change operation": "New method" 
     }
