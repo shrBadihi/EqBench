@@ -15,8 +15,7 @@ within each program directory, i.e., *Eq* and *Neq*.
 Inside each of the program pair sub-directories, there are four versions: 
 two written in **Java (oldV.java and newV.java)** and two written in **C (oldV.c and newV.c)**.
 
-For each Eq and Neq versions, we also provide a file, named *Desc.json*, containing the
-meta-data written in the JSON format.
+For each Eq and Neq versions, we also provide two files that contain the meta-data describing the program, in JSON format. The files are named C-Desc.json and J-Desc.json and correspond to C and Java versions of the program, respectively.
 
 The file is structured as follows.
 
