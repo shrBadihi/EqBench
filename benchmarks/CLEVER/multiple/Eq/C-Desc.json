@@ -1,7 +1,7 @@
 {
   "benchmark name": "CLEVER",
   "program name": "multiple.client",
-  "function name": "iib",
+  "function name": "lib",
   "LOC":11,
   "# Loops":0,
   "# non-linear arithmetics":3,
