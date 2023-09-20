@@ -1,7 +1,7 @@
 {
   "benchmark name": "REVE",
   "program name": "triangular.triangle",
-  "function name": "f",
+  "function name": "g",
   "LOC":15,
   "# Loops":0,
   "# non-linear arithmetics":0,

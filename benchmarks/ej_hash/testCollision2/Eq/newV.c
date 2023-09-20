@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 typedef struct newV {
     int x;
     long y;
     int z;
 }ejhash;
+
+bool checkCond(ejhash o1, ejhash o2);
+
 ejhash constructor(int x, long y, int z) {
 		ejhash obj;
 	    obj.x = x;

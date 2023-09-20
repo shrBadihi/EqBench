@@ -1,7 +1,7 @@
 {
   "benchmark name": "REVE",
   "program name": "average",
-  "function name": "f",
+  "function name": "average",
   "LOC":11,
   "# Loops":1,
   "# non-linear arithmetics":1,
