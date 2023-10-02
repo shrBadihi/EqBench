@@ -1,6 +1,6 @@
 {
   "benchmark name": "CLEVER",
-  "program name": "oneN2.client",
+  "program name": "Sub.main",
   "function name": "foo",
   "LOC":12,
   "# Loops":0,
