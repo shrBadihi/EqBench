@@ -9,7 +9,7 @@ double snippet (double a, double x, double gamser, double gammcf, double gln) {
     if (x < 0.0)//change
       return -100000;
     if (a <= 0.0)//change
-      return -1000;
+      return -100000;
     if (x < a+1.0) {
       gamser =gser(a,x,gln, gamser);
       return 1.0-gamser;
