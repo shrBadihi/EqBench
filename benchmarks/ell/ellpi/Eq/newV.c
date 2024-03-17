@@ -16,7 +16,7 @@ double snippet (double phi, double en, double ak){
     s=sin(phi);
     enss=en*s*s;
     cc=SQR(cos(phi));
-    q=1.0+((s*ak)*(s*ak));//change
+    q=1.0-((s*ak)*(s*ak));//change
     return s*(rf(cc,q,1.0)-enss*rj(cc,q,1.0,1.0+enss)/3.0);
   }
 double SQR(double a) {
