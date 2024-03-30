@@ -17,7 +17,7 @@ public class oldV {
 	public boolean client(int x) { 
 		for (int i = 0; i < NUMPRIMES; i++) {
 			if (x == primes[i])
-			  return 1;
+			  return true;
 		  }
 		  return lib(x,1);
 	}
