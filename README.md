@@ -3,6 +3,12 @@ EqBench is a collection of equivalent and non-equivalent **Java** and **C** prog
 It unifies and extends benchmarks used in earlier works contributing **135 equivalent** and **113 non-equivalent** cases, which we capture in both C and Java,
 to facilitate applicability for different equivalence checking techniques.
 
+## Citation
+
+If you use this dataset, please use the following citations:
+
+Badihi S, Li Y, Rubin J. "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs", In Procedings of the International Conference on Mining Software Repositories (MSR), pp. 610-614, 2021.
+
 ## Data Representation
 The structure of the dataset is shown below:
 
