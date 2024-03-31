@@ -5,7 +5,7 @@ to facilitate applicability for different equivalence checking techniques.
 
 ## Citation
 
-If you use this dataset, please use the following citations:
+If you use this dataset, please cite the paper below:
 
 Badihi S, Li Y, Rubin J. "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs", IEEE/ACM 18th International Conference on Mining Software Repositories (MSR), data showcase, pp. 610-614, 2021.
 
