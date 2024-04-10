@@ -1,6 +1,6 @@
 # EqBench
 EqBench is a collection of equivalent and non-equivalent **Java** and **C** programs with the goal of advancing software engineering research.
-It unifies and extends benchmarks used in earlier works contributing **135 equivalent** and **113 non-equivalent** cases, which we capture in both C and Java,
+It unifies and extends benchmarks used in earlier works contributing **147 equivalent** and **125 non-equivalent** cases, which we capture in both C and Java,
 to facilitate applicability for different equivalence checking techniques.
 
 ## Citation
