@@ -1,0 +1,16 @@
+{
+  "benchmark name": "REVE",
+  "program name": "triangularMod.f",
+  "function name": "f",
+  "LOC":20,
+  "# Loops":1,
+  "# non-linear arithmetics":0,
+  "changes": 
+  [
+    {
+      "change line": "15,17",
+      "change type": "Insertion", 
+      "change operation": "adding a TRUE if-condition"
+    }
+  ]
+}
